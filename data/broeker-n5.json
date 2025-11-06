@@ -3,108 +3,475 @@
   "level": 5,
   "tasks": [
     {
-      "id": "broeker-n5-h1",
+      "id": "broeker-n5-eAdd1",
       "type": "mcq",
-      "difficulty": "hard",
-      "prompt": "Beregn: 2 3/5 + 3/5",
+      "difficulty": "easy",
+      "prompt": "Beregn: 6/8 + 3/8",
       "choices": [
-        "16/5",
-        "13/5",
-        "6/5"
-      ],
-      "answer": 0,
-      "hint": "Lav blandet tal om til uægte brøk."
-    },
-    {
-      "id": "broeker-n5-h2",
-      "type": "mcq",
-      "difficulty": "hard",
-      "prompt": "Beregn: 2 3/3 + 2/3",
-      "choices": [
-        "11/3",
-        "3/1",
-        "5/3"
-      ],
-      "answer": 0,
-      "hint": "Lav blandet tal om til uægte brøk."
-    },
-    {
-      "id": "broeker-n5-m2",
-      "type": "mcq",
-      "difficulty": "medium",
-      "prompt": "Beregn: 2/4 - 5/6",
-      "choices": [
-        "-1/3",
+        "9/8",
         "3/4",
+        "3/8"
+      ],
+      "answer": 0,
+      "hint": "fraction_same_den_rule"
+    },
+    {
+      "id": "broeker-n5-eAdd2",
+      "type": "mcq",
+      "difficulty": "easy",
+      "prompt": "Beregn: 4/6 + 3/6",
+      "choices": [
+        "7/6",
+        "2/3",
         "1/2"
       ],
       "answer": 0,
-      "hint": "Find fællesnævner (kgf/LCM) og regn på tællerne."
+      "hint": "fraction_same_den_rule"
     },
     {
-      "id": "broeker-n5-m3",
-      "type": "mcq",
-      "difficulty": "medium",
-      "prompt": "Beregn: 3/4 - 2/6",
-      "choices": [
-        "5/12",
-        "1/4",
-        "3/4"
-      ],
-      "answer": 0,
-      "hint": "Find fællesnævner (kgf/LCM) og regn på tællerne."
-    },
-    {
-      "id": "broeker-n5-e3",
+      "id": "broeker-n5-eAdd3",
       "type": "mcq",
       "difficulty": "easy",
-      "prompt": "Beregn: 3/4 - 1/4",
+      "prompt": "Beregn: 6/12 - 4/12",
       "choices": [
+        "1/6",
         "1/2",
-        "3/4",
-        "1/4"
-      ],
-      "answer": 0,
-      "hint": "Ved samme nævner lægges/trækkes tællerne."
-    },
-    {
-      "id": "broeker-n5-e1",
-      "type": "mcq",
-      "difficulty": "easy",
-      "prompt": "Beregn: 2/10 - 1/10",
-      "choices": [
-        "1/10",
-        "1/5",
-        "1/10"
-      ],
-      "answer": 0,
-      "hint": "Ved samme nævner lægges/trækkes tællerne."
-    },
-    {
-      "id": "broeker-n5-e2",
-      "type": "mcq",
-      "difficulty": "easy",
-      "prompt": "Beregn: 2/8 + 1/8",
-      "choices": [
-        "3/8",
-        "1/4",
-        "1/8"
-      ],
-      "answer": 0,
-      "hint": "Ved samme nævner lægges/trækkes tællerne."
-    },
-    {
-      "id": "broeker-n5-m1",
-      "type": "mcq",
-      "difficulty": "medium",
-      "prompt": "Beregn: 1/3 - 1/4",
-      "choices": [
-        "1/12",
-        "0/1",
         "1/3"
       ],
       "answer": 0,
-      "hint": "Find fællesnævner (kgf/LCM) og regn på tællerne."
+      "hint": "fraction_same_den_rule"
+    },
+    {
+      "id": "broeker-n5-eAdd4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "prompt": "Beregn: 3/4 - 3/4",
+      "choices": [
+        "0/1",
+        "3/4",
+        "3/4"
+      ],
+      "answer": 0,
+      "hint": "fraction_same_den_rule"
+    },
+    {
+      "id": "broeker-n5-eCmp1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "prompt": "Hvad er korrekt: 3/7 __ 4/7?",
+      "choices": [
+        "<",
+        ">",
+        "="
+      ],
+      "answer": 0,
+      "hint": "Sammenlign tællere når nævneren er ens."
+    },
+    {
+      "id": "broeker-n5-eCmp2",
+      "type": "mcq",
+      "difficulty": "easy",
+      "prompt": "Hvad er korrekt: 1/5 __ 1/5?",
+      "choices": [
+        "<",
+        ">",
+        "="
+      ],
+      "answer": 2,
+      "hint": "Sammenlign tællere når nævneren er ens."
+    },
+    {
+      "id": "broeker-n5-eCmp3",
+      "type": "mcq",
+      "difficulty": "easy",
+      "prompt": "Hvad er korrekt: 3/5 __ 2/5?",
+      "choices": [
+        "<",
+        ">",
+        "="
+      ],
+      "answer": 1,
+      "hint": "Sammenlign tællere når nævneren er ens."
+    },
+    {
+      "id": "broeker-n5-eEq1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "prompt": "Hvilken brøk er ækvivalent med 3/10?",
+      "choices": [
+        "3/10",
+        "3/10",
+        "3/10"
+      ],
+      "answer": 0,
+      "hint": "Gange både tæller og nævner med samme tal."
+    },
+    {
+      "id": "broeker-n5-eEq2",
+      "type": "mcq",
+      "difficulty": "easy",
+      "prompt": "Hvilken brøk er ækvivalent med 5/6?",
+      "choices": [
+        "5/6",
+        "5/6",
+        "5/6"
+      ],
+      "answer": 0,
+      "hint": "Gange både tæller og nævner med samme tal."
+    },
+    {
+      "id": "broeker-n5-eEq3",
+      "type": "mcq",
+      "difficulty": "easy",
+      "prompt": "Hvilken brøk er ækvivalent med 6/9?",
+      "choices": [
+        "2/3",
+        "2/3",
+        "6/9"
+      ],
+      "answer": 0,
+      "hint": "Gange både tæller og nævner med samme tal."
+    },
+    {
+      "id": "broeker-n5-mAdd1",
+      "type": "mcq",
+      "difficulty": "medium",
+      "prompt": "Beregn: 1/8 + 4/12",
+      "choices": [
+        "11/24",
+        "5/8",
+        "1/8"
+      ],
+      "answer": 0,
+      "hint": "lcm_needed"
+    },
+    {
+      "id": "broeker-n5-mAdd2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "prompt": "Beregn: 3/4 + 4/6",
+      "choices": [
+        "17/12",
+        "7/4",
+        "3/4"
+      ],
+      "answer": 0,
+      "hint": "lcm_needed"
+    },
+    {
+      "id": "broeker-n5-mAdd3",
+      "type": "mcq",
+      "difficulty": "medium",
+      "prompt": "Beregn: 2/3 + 1/4",
+      "choices": [
+        "11/12",
+        "3/3",
+        "2/3"
+      ],
+      "answer": 0,
+      "hint": "lcm_needed"
+    },
+    {
+      "id": "broeker-n5-mAdd4",
+      "type": "mcq",
+      "difficulty": "medium",
+      "prompt": "Beregn: 2/4 + 5/6",
+      "choices": [
+        "4/3",
+        "7/4",
+        "2/4"
+      ],
+      "answer": 0,
+      "hint": "lcm_needed"
+    },
+    {
+      "id": "broeker-n5-mSimp1",
+      "type": "mcq",
+      "difficulty": "medium",
+      "prompt": "Forkort brøken 16/9.",
+      "choices": [
+        "16/9",
+        "16/9",
+        "17/9"
+      ],
+      "answer": 0,
+      "hint": "Forkort med fælles faktor."
+    },
+    {
+      "id": "broeker-n5-mSimp2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "prompt": "Forkort brøken 15/15.",
+      "choices": [
+        "1/1",
+        "15/15",
+        "16/15"
+      ],
+      "answer": 0,
+      "hint": "Forkort med fælles faktor."
+    },
+    {
+      "id": "broeker-n5-mSimp3",
+      "type": "mcq",
+      "difficulty": "medium",
+      "prompt": "Forkort brøken 13/9.",
+      "choices": [
+        "13/9",
+        "13/9",
+        "14/9"
+      ],
+      "answer": 0,
+      "hint": "Forkort med fælles faktor."
+    },
+    {
+      "id": "broeker-n5-mConv1",
+      "type": "mcq",
+      "difficulty": "medium",
+      "prompt": "Hvad er 7/10 som procent?",
+      "choices": [
+        "70.0%",
+        "75.0%",
+        "65.0%"
+      ],
+      "answer": 0,
+      "hint": "decimal_percent_convert"
+    },
+    {
+      "id": "broeker-n5-mConv2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "prompt": "Hvad er 3/25 som procent?",
+      "choices": [
+        "12.0%",
+        "17.0%",
+        "7.0%"
+      ],
+      "answer": 0,
+      "hint": "decimal_percent_convert"
+    },
+    {
+      "id": "broeker-n5-mConv3",
+      "type": "mcq",
+      "difficulty": "medium",
+      "prompt": "Hvad er 7/4 som procent?",
+      "choices": [
+        "175.0%",
+        "180.0%",
+        "170.0%"
+      ],
+      "answer": 0,
+      "hint": "decimal_percent_convert"
+    },
+    {
+      "id": "broeker-n5-hMix1",
+      "type": "mcq",
+      "difficulty": "hard",
+      "prompt": "Beregn: 4 3/3 + 2/3",
+      "choices": [
+        "17/3",
+        "5/1",
+        "5/3"
+      ],
+      "answer": 0,
+      "hint": "mixed_to_improper"
+    },
+    {
+      "id": "broeker-n5-hMix2",
+      "type": "mcq",
+      "difficulty": "hard",
+      "prompt": "Beregn: 3 5/3 + 5/3",
+      "choices": [
+        "19/3",
+        "14/3",
+        "10/3"
+      ],
+      "answer": 0,
+      "hint": "mixed_to_improper"
+    },
+    {
+      "id": "broeker-n5-hMix3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "prompt": "Beregn: 2 5/5 + 5/5",
+      "choices": [
+        "4/1",
+        "3/1",
+        "2/1"
+      ],
+      "answer": 0,
+      "hint": "mixed_to_improper"
+    },
+    {
+      "id": "broeker-n5-hMix4",
+      "type": "mcq",
+      "difficulty": "hard",
+      "prompt": "Beregn: 2 2/3 + 3/3",
+      "choices": [
+        "11/3",
+        "8/3",
+        "5/3"
+      ],
+      "answer": 0,
+      "hint": "mixed_to_improper"
+    },
+    {
+      "id": "broeker-n5-hMiss1",
+      "type": "mcq",
+      "difficulty": "hard",
+      "prompt": "Find x: x/12 + 5/12 = 9/12",
+      "choices": [
+        "4",
+        "5",
+        "9"
+      ],
+      "answer": 0,
+      "hint": "Ved samme nævner: læg tællerne."
+    },
+    {
+      "id": "broeker-n5-hMiss2",
+      "type": "mcq",
+      "difficulty": "hard",
+      "prompt": "Find x: x/12 + 1/12 = 3/12",
+      "choices": [
+        "2",
+        "1",
+        "3"
+      ],
+      "answer": 0,
+      "hint": "Ved samme nævner: læg tællerne."
+    },
+    {
+      "id": "broeker-n5-hMiss3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "prompt": "Find x: x/12 + 10/12 = 11/12",
+      "choices": [
+        "1",
+        "10",
+        "11"
+      ],
+      "answer": 0,
+      "hint": "Ved samme nævner: læg tællerne."
+    },
+    {
+      "id": "broeker-n5-hMiss4",
+      "type": "mcq",
+      "difficulty": "hard",
+      "prompt": "Find x: x/8 + 1/8 = 5/8",
+      "choices": [
+        "4",
+        "1",
+        "5"
+      ],
+      "answer": 0,
+      "hint": "Ved samme nævner: læg tællerne."
+    },
+    {
+      "id": "broeker-n5-hCtx1",
+      "type": "short",
+      "difficulty": "hard",
+      "prompt": "En opskrift kræver 3/4 liter mælk. Du har 3/2 liter. Mangler du mælk, og hvor meget?",
+      "answer": "Nej, du mangler ikke.",
+      "hint": "Sammenlign decimaler af brøkerne."
+    },
+    {
+      "id": "broeker-n5-hCtx2",
+      "type": "short",
+      "difficulty": "hard",
+      "prompt": "En opskrift kræver 3/4 liter mælk. Du har 3/2 liter. Mangler du mælk, og hvor meget?",
+      "answer": "Nej, du mangler ikke.",
+      "hint": "Sammenlign decimaler af brøkerne."
+    },
+    {
+      "id": "broeker-rl-recipe-5-1",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "En opskrift til 2 personer bruger 2 kop sukker. Hvor mange kopper til 8 personer? (angiv tal)",
+      "answer": 8.0,
+      "format": "number",
+      "hint": "Skaler med forhold: ny = gammel × (ny/opr.)."
+    },
+    {
+      "id": "broeker-rl-recipe-5-2",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "En opskrift til 4 personer bruger 1 kop sukker. Hvor mange kopper til 5 personer? (angiv tal)",
+      "answer": 1.25,
+      "format": "number",
+      "hint": "Skaler med forhold: ny = gammel × (ny/opr.)."
+    },
+    {
+      "id": "broeker-rl-recipe-5-3",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "En opskrift til 6 personer bruger 2 kop sukker. Hvor mange kopper til 5 personer? (angiv tal)",
+      "answer": 1.67,
+      "format": "number",
+      "hint": "Skaler med forhold: ny = gammel × (ny/opr.)."
+    },
+    {
+      "id": "broeker-rl-bill-5-1",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "En regning på 240 kr deles. Person A betaler 0.25 af totalen. Hvor meget betaler A?",
+      "answer": 60.0,
+      "format": "number",
+      "unit": "kr",
+      "hint": "Del af helhed: brøk × total."
+    },
+    {
+      "id": "broeker-rl-bill-5-2",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "En regning på 510 kr deles. Person A betaler 0.3333333333333333 af totalen. Hvor meget betaler A?",
+      "answer": 170.0,
+      "format": "number",
+      "unit": "kr",
+      "hint": "Del af helhed: brøk × total."
+    },
+    {
+      "id": "broeker-unit-g2kg-5-1",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Omregn 1200 g til kg.",
+      "answer": 1.2,
+      "format": "number",
+      "unit": "kg",
+      "hint": "1 kg = 1000 g.",
+      "feedback_key": "g_kg_confusion"
+    },
+    {
+      "id": "broeker-unit-g2kg-5-2",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Omregn 500 g til kg.",
+      "answer": 0.5,
+      "format": "number",
+      "unit": "kg",
+      "hint": "1 kg = 1000 g.",
+      "feedback_key": "g_kg_confusion"
+    },
+    {
+      "id": "broeker-unit-min2s-5-1",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Omregn 3 min til sekunder.",
+      "answer": 180,
+      "format": "number",
+      "unit": "s",
+      "hint": "1 min = 60 s.",
+      "feedback_key": "time_conversion_confusion"
+    },
+    {
+      "id": "broeker-unit-min2s-5-2",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Omregn 7 min til sekunder.",
+      "answer": 420,
+      "format": "number",
+      "unit": "s",
+      "hint": "1 min = 60 s.",
+      "feedback_key": "time_conversion_confusion"
     }
   ]
 }

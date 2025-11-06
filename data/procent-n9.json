@@ -3,76 +3,578 @@
   "level": 9,
   "tasks": [
     {
-      "id": "procent-n9-h2",
+      "id": "procent-n9-e1",
       "type": "numeric",
-      "difficulty": "hard",
-      "prompt": "En vare koster 560 kr uden moms. Hvad er prisen med 25% moms?",
-      "answer": 700.0,
+      "difficulty": "easy",
+      "prompt": "Hvad er 25% af 200 kr?",
+      "answer": 50.0,
       "format": "number",
-      "hint": "Netto × 1,25."
-    },
-    {
-      "id": "procent-n9-m3",
-      "type": "numeric",
-      "difficulty": "medium",
-      "prompt": "En pris på 400 kr stiger med 20%. Hvad er den nye pris?",
-      "answer": 480.0,
-      "format": "number",
-      "hint": "Gange med 1±p/100."
-    },
-    {
-      "id": "procent-n9-m1",
-      "type": "numeric",
-      "difficulty": "medium",
-      "prompt": "En pris på 250 kr stiger med 10%. Hvad er den nye pris?",
-      "answer": 275.0,
-      "format": "number",
-      "hint": "Gange med 1±p/100."
+      "unit": "kr",
+      "hint": "(procent/100) × tal.",
+      "distractors": [
+        60.0
+      ],
+      "feedback_map": {
+        "60.0": "pi_rounding"
+      }
     },
     {
       "id": "procent-n9-e2",
       "type": "numeric",
       "difficulty": "easy",
-      "prompt": "Hvad er 5% af 100?",
-      "answer": 5.0,
+      "prompt": "Hvad er 25% af 200 kr?",
+      "answer": 50.0,
       "format": "number",
-      "hint": "(procent/100) × tal."
-    },
-    {
-      "id": "procent-n9-e1",
-      "type": "numeric",
-      "difficulty": "easy",
-      "prompt": "Hvad er 20% af 80?",
-      "answer": 16.0,
-      "format": "number",
-      "hint": "(procent/100) × tal."
-    },
-    {
-      "id": "procent-n9-h1",
-      "type": "numeric",
-      "difficulty": "hard",
-      "prompt": "En vare koster 480 kr. Butikken giver 40% rabat. Hvad betaler du?",
-      "answer": 288.0,
-      "format": "number",
-      "hint": "Pris × (1 − rabat%)."
-    },
-    {
-      "id": "procent-n9-m2",
-      "type": "numeric",
-      "difficulty": "medium",
-      "prompt": "En pris på 250 kr stiger med 10%. Hvad er den nye pris?",
-      "answer": 275.0,
-      "format": "number",
-      "hint": "Gange med 1±p/100."
+      "unit": "kr",
+      "hint": "(procent/100) × tal.",
+      "distractors": [
+        60.0
+      ],
+      "feedback_map": {
+        "60.0": "pi_rounding"
+      }
     },
     {
       "id": "procent-n9-e3",
       "type": "numeric",
       "difficulty": "easy",
-      "prompt": "Hvad er 5% af 80?",
-      "answer": 4.0,
+      "prompt": "Hvad er 20% af 80 kr?",
+      "answer": 16.0,
       "format": "number",
-      "hint": "(procent/100) × tal."
+      "unit": "kr",
+      "hint": "(procent/100) × tal.",
+      "distractors": [
+        20.0
+      ],
+      "feedback_map": {
+        "20.0": "pi_rounding"
+      }
+    },
+    {
+      "id": "procent-n9-e4",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Hvad er 20% af 240 kr?",
+      "answer": 48.0,
+      "format": "number",
+      "unit": "kr",
+      "hint": "(procent/100) × tal.",
+      "distractors": [
+        60.0
+      ],
+      "feedback_map": {
+        "60.0": "pi_rounding"
+      }
+    },
+    {
+      "id": "procent-n9-e5",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Hvad er 20% af 80 kr?",
+      "answer": 16.0,
+      "format": "number",
+      "unit": "kr",
+      "hint": "(procent/100) × tal.",
+      "distractors": [
+        20.0
+      ],
+      "feedback_map": {
+        "20.0": "pi_rounding"
+      }
+    },
+    {
+      "id": "procent-n9-e6",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Hvad er 20% af 150 kr?",
+      "answer": 30.0,
+      "format": "number",
+      "unit": "kr",
+      "hint": "(procent/100) × tal.",
+      "distractors": [
+        37.5
+      ],
+      "feedback_map": {
+        "37.5": "pi_rounding"
+      }
+    },
+    {
+      "id": "procent-n9-e7",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Hvad er 10% af 150 kr?",
+      "answer": 15.0,
+      "format": "number",
+      "unit": "kr",
+      "hint": "(procent/100) × tal.",
+      "distractors": [
+        22.5
+      ],
+      "feedback_map": {
+        "22.5": "pi_rounding"
+      }
+    },
+    {
+      "id": "procent-n9-e8",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Hvad er 10% af 300 kr?",
+      "answer": 30.0,
+      "format": "number",
+      "unit": "kr",
+      "hint": "(procent/100) × tal.",
+      "distractors": [
+        45.0
+      ],
+      "feedback_map": {
+        "45.0": "pi_rounding"
+      }
+    },
+    {
+      "id": "procent-n9-e9",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Hvad er 5% af 240 kr?",
+      "answer": 12.0,
+      "format": "number",
+      "unit": "kr",
+      "hint": "(procent/100) × tal.",
+      "distractors": [
+        24.0
+      ],
+      "feedback_map": {
+        "24.0": "pi_rounding"
+      }
+    },
+    {
+      "id": "procent-n9-e10",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Hvad er 20% af 120 kr?",
+      "answer": 24.0,
+      "format": "number",
+      "unit": "kr",
+      "hint": "(procent/100) × tal.",
+      "distractors": [
+        30.0
+      ],
+      "feedback_map": {
+        "30.0": "pi_rounding"
+      }
+    },
+    {
+      "id": "procent-n9-m1",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "En pris på 500 kr stiger med 15%. Hvad er den nye pris?",
+      "answer": 575.0,
+      "format": "number",
+      "unit": "kr",
+      "hint": "Gange med 1±p/100."
+    },
+    {
+      "id": "procent-n9-m2",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "En pris på 400 kr stiger med 10%. Hvad er den nye pris?",
+      "answer": 440.0,
+      "format": "number",
+      "unit": "kr",
+      "hint": "Gange med 1±p/100."
+    },
+    {
+      "id": "procent-n9-m3",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "En pris på 300 kr stiger med 15%. Hvad er den nye pris?",
+      "answer": 345.0,
+      "format": "number",
+      "unit": "kr",
+      "hint": "Gange med 1±p/100."
+    },
+    {
+      "id": "procent-n9-m4",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "En pris på 400 kr stiger med 15%. Hvad er den nye pris?",
+      "answer": 460.0,
+      "format": "number",
+      "unit": "kr",
+      "hint": "Gange med 1±p/100."
+    },
+    {
+      "id": "procent-n9-m5",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "En pris på 500 kr falder med 15%. Hvad er den nye pris?",
+      "answer": 425.0,
+      "format": "number",
+      "unit": "kr",
+      "hint": "Gange med 1±p/100."
+    },
+    {
+      "id": "procent-n9-m6",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "En pris på 250 kr falder med 10%. Hvad er den nye pris?",
+      "answer": 225.0,
+      "format": "number",
+      "unit": "kr",
+      "hint": "Gange med 1±p/100."
+    },
+    {
+      "id": "procent-n9-disc1",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "En vare koster 560 kr. Der gives 15% rabat. Hvad betaler du?",
+      "answer": 476.0,
+      "format": "number",
+      "unit": "kr",
+      "hint": "Pris × (1 − rabat%)."
+    },
+    {
+      "id": "procent-n9-disc2",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "En vare koster 800 kr. Der gives 30% rabat. Hvad betaler du?",
+      "answer": 560.0,
+      "format": "number",
+      "unit": "kr",
+      "hint": "Pris × (1 − rabat%)."
+    },
+    {
+      "id": "procent-n9-disc3",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "En vare koster 350 kr. Der gives 40% rabat. Hvad betaler du?",
+      "answer": 210.0,
+      "format": "number",
+      "unit": "kr",
+      "hint": "Pris × (1 − rabat%)."
+    },
+    {
+      "id": "procent-n9-disc4",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "En vare koster 800 kr. Der gives 15% rabat. Hvad betaler du?",
+      "answer": 680.0,
+      "format": "number",
+      "unit": "kr",
+      "hint": "Pris × (1 − rabat%)."
+    },
+    {
+      "id": "procent-n9-rev1",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "En vare koster 160 kr **efter** 20% rabat. Hvad kostede den **før** rabatten?",
+      "answer": 200.0,
+      "format": "number",
+      "unit": "kr",
+      "hint": "Divider med 1−p%.",
+      "distractors": [
+        192.0
+      ],
+      "feedback_map": {
+        "192.0": "reverse_percent_base"
+      }
+    },
+    {
+      "id": "procent-n9-rev2",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "En vare koster 225 kr **efter** 20% rabat. Hvad kostede den **før** rabatten?",
+      "answer": 281.25,
+      "format": "number",
+      "unit": "kr",
+      "hint": "Divider med 1−p%.",
+      "distractors": [
+        270.0
+      ],
+      "feedback_map": {
+        "270.0": "reverse_percent_base"
+      }
+    },
+    {
+      "id": "procent-n9-rev3",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "En vare koster 80 kr **efter** 20% rabat. Hvad kostede den **før** rabatten?",
+      "answer": 100.0,
+      "format": "number",
+      "unit": "kr",
+      "hint": "Divider med 1−p%.",
+      "distractors": [
+        96.0
+      ],
+      "feedback_map": {
+        "96.0": "reverse_percent_base"
+      }
+    },
+    {
+      "id": "procent-n9-pp1",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "Renten stiger fra 12% til 17%. Hvor **mange procentpoint** er stigningen?",
+      "answer": 5,
+      "format": "number",
+      "unit": "procentpoint",
+      "hint": "Procentpoint = absolut forskel i %-tal.",
+      "distractors": [
+        41.67
+      ],
+      "feedback_map": {
+        "41.67": "percent_vs_point"
+      }
+    },
+    {
+      "id": "procent-n9-pp2",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "Renten stiger fra 12% til 14%. Hvor **mange procentpoint** er stigningen?",
+      "answer": 2,
+      "format": "number",
+      "unit": "procentpoint",
+      "hint": "Procentpoint = absolut forskel i %-tal.",
+      "distractors": [
+        16.67
+      ],
+      "feedback_map": {
+        "16.67": "percent_vs_point"
+      }
+    },
+    {
+      "id": "procent-n9-pp3",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "Renten stiger fra 12% til 17%. Hvor **mange procentpoint** er stigningen?",
+      "answer": 5,
+      "format": "number",
+      "unit": "procentpoint",
+      "hint": "Procentpoint = absolut forskel i %-tal.",
+      "distractors": [
+        41.67
+      ],
+      "feedback_map": {
+        "41.67": "percent_vs_point"
+      }
+    },
+    {
+      "id": "procent-n9-seq1",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "En vare sættes op med 20% og derefter ned med 20%. Hvad ender prisen på, hvis start var 200 kr?",
+      "answer": 192.0,
+      "format": "number",
+      "unit": "kr",
+      "hint": "Start×(1+x%)×(1−x%).",
+      "distractors": [
+        200.0
+      ],
+      "feedback_map": {
+        "200.0": "sequential_changes_not_cancel"
+      }
+    },
+    {
+      "id": "procent-n9-seq2",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "En vare sættes op med 25% og derefter ned med 25%. Hvad ender prisen på, hvis start var 200 kr?",
+      "answer": 187.5,
+      "format": "number",
+      "unit": "kr",
+      "hint": "Start×(1+x%)×(1−x%).",
+      "distractors": [
+        200.0
+      ],
+      "feedback_map": {
+        "200.0": "sequential_changes_not_cancel"
+      }
+    },
+    {
+      "id": "procent-n9-ord1",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "Pris: 1200 kr. Først 20% rabat, derefter 25% moms. Hvad betaler du?",
+      "answer": 1200.0,
+      "format": "number",
+      "unit": "kr",
+      "hint": "Rabat først → moms på nedsat pris.",
+      "distractors": [
+        1200.0
+      ],
+      "feedback_map": {
+        "1200.0": "order_discount_vat"
+      }
+    },
+    {
+      "id": "procent-n9-ord2",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "Pris: 1200 kr. Først 30% rabat, derefter 25% moms. Hvad betaler du?",
+      "answer": 1050.0,
+      "format": "number",
+      "unit": "kr",
+      "hint": "Rabat først → moms på nedsat pris.",
+      "distractors": [
+        1050.0
+      ],
+      "feedback_map": {
+        "1050.0": "order_discount_vat"
+      }
+    },
+    {
+      "id": "procent-n9-ci1",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "Opsparing 2500 kr vokser 1.0% pr. måned i 12 måneder. Hvor stor er gevinsten (afrund 2 dec.)?",
+      "answer": 25.0,
+      "format": "number",
+      "unit": "kr",
+      "hint": "A=P·(1+r)^t. Gevinst=A−P."
+    },
+    {
+      "id": "procent-n9-ci2",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "Opsparing 1500 kr vokser 1.25% pr. måned i 6 måneder. Hvor stor er gevinsten (afrund 2 dec.)?",
+      "answer": 9.35,
+      "format": "number",
+      "unit": "kr",
+      "hint": "A=P·(1+r)^t. Gevinst=A−P."
+    },
+    {
+      "id": "procent-n9-ci3",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "Opsparing 2000 kr vokser 1.0% pr. måned i 18 måneder. Hvor stor er gevinsten (afrund 2 dec.)?",
+      "answer": 30.07,
+      "format": "number",
+      "unit": "kr",
+      "hint": "A=P·(1+r)^t. Gevinst=A−P."
+    },
+    {
+      "id": "procent-rl-unit-9-1",
+      "type": "short",
+      "difficulty": "medium",
+      "prompt": "Hvilket køb er billigst pr. kg? A: 25.0 kr for 0.75 kg, B: 45.0 kr for 1.2 kg. Svar A eller B.",
+      "answer": "A",
+      "hint": "Beregn kr/kg.",
+      "feedback_key": "unit_price_confusion"
+    },
+    {
+      "id": "procent-rl-unit-9-2",
+      "type": "short",
+      "difficulty": "medium",
+      "prompt": "Hvilket køb er billigst pr. kg? A: 36.0 kr for 0.5 kg, B: 45.0 kr for 1.2 kg. Svar A eller B.",
+      "answer": "B",
+      "hint": "Beregn kr/kg.",
+      "feedback_key": "unit_price_confusion"
+    },
+    {
+      "id": "procent-rl-unit-9-3",
+      "type": "short",
+      "difficulty": "medium",
+      "prompt": "Hvilket køb er billigst pr. kg? A: 25.0 kr for 0.4 kg, B: 50.0 kr for 1.2 kg. Svar A eller B.",
+      "answer": "B",
+      "hint": "Beregn kr/kg.",
+      "feedback_key": "unit_price_confusion"
+    },
+    {
+      "id": "procent-rl-moms-9-n2b-1",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "En vare koster 800 kr uden moms. Hvad er prisen med 25% moms?",
+      "answer": 1000.0,
+      "format": "number",
+      "unit": "kr",
+      "hint": "Brutto = Netto × 1,25.",
+      "feedback_key": "tax_net_gross_confusion"
+    },
+    {
+      "id": "procent-rl-moms-9-n2b-2",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "En vare koster 320 kr uden moms. Hvad er prisen med 25% moms?",
+      "answer": 400.0,
+      "format": "number",
+      "unit": "kr",
+      "hint": "Brutto = Netto × 1,25.",
+      "feedback_key": "tax_net_gross_confusion"
+    },
+    {
+      "id": "procent-rl-moms-9-n2b-3",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "En vare koster 560 kr uden moms. Hvad er prisen med 25% moms?",
+      "answer": 700.0,
+      "format": "number",
+      "unit": "kr",
+      "hint": "Brutto = Netto × 1,25.",
+      "feedback_key": "tax_net_gross_confusion"
+    },
+    {
+      "id": "procent-rl-salary-9-1",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "En månedsløn er 32000 kr. Lønnen stiger med 2.5%. Hvad er den nye løn?",
+      "answer": 32800.0,
+      "format": "number",
+      "unit": "kr",
+      "hint": "Gange med 1+p%."
+    },
+    {
+      "id": "procent-rl-salary-9-2",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "En månedsløn er 23000 kr. Lønnen stiger med 2.5%. Hvad er den nye løn?",
+      "answer": 23575.0,
+      "format": "number",
+      "unit": "kr",
+      "hint": "Gange med 1+p%."
+    },
+    {
+      "id": "procent-rl-fuel-9-1",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "Bilen bruger 6.2 L/100 km. Turen er 260 km og benzin koster 14.2 kr/L. Hvad koster turen?",
+      "answer": 228.9,
+      "format": "number",
+      "unit": "kr",
+      "hint": "L=(km/100)×forbrug; pris=L×kr/L.",
+      "feedback_key": "fuel_consumption_confusion"
+    },
+    {
+      "id": "procent-rl-fuel-9-2",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "Bilen bruger 5.8 L/100 km. Turen er 150 km og benzin koster 14.2 kr/L. Hvad koster turen?",
+      "answer": 123.54,
+      "format": "number",
+      "unit": "kr",
+      "hint": "L=(km/100)×forbrug; pris=L×kr/L.",
+      "feedback_key": "fuel_consumption_confusion"
+    },
+    {
+      "id": "procent-unit-kmh2ms-9-1",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "Omregn 54 km/h til m/s (afrund 2 dec.).",
+      "answer": 15.0,
+      "format": "number",
+      "unit": "m/s",
+      "hint": "m/s = km/h ÷ 3,6.",
+      "feedback_key": "kmh_ms_confusion"
+    },
+    {
+      "id": "procent-unit-kmh2ms-9-2",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "Omregn 36 km/h til m/s (afrund 2 dec.).",
+      "answer": 10.0,
+      "format": "number",
+      "unit": "m/s",
+      "hint": "m/s = km/h ÷ 3,6.",
+      "feedback_key": "kmh_ms_confusion"
     }
   ]
 }

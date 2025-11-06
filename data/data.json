@@ -5,62 +5,62 @@
       {
         "level": 1,
         "title": "Hvad er en brøk?",
-        "desc": "Genkend halvdele, kvarte og tredjedele som dele af helheder.",
-        "example": "Farvelæg 1/2 af en rektangel."
+        "desc": "Genkend simple brøker og helheder.",
+        "example": "Farvelæg 1/2 af en figur."
       },
       {
         "level": 2,
         "title": "Brøker som billeder",
-        "desc": "Match brøker til skyggefelter i figurer.",
+        "desc": "Match brøker til skyggefelter.",
         "example": "Hvilket billede viser 3/4?"
       },
       {
         "level": 3,
-        "title": "Sammenligne enkle brøker",
-        "desc": "Sammenlign brøker med samme nævner.",
-        "example": "Hvad er størst: 3/8 eller 5/8?"
+        "title": "Sammenligne brøker (samme nævner)",
+        "desc": "<, >, =",
+        "example": "3/8 __ 5/8"
       },
       {
         "level": 4,
-        "title": "Udvide og forkorte",
-        "desc": "Gør brøker ækvivalente ved at gange/dividere tæller og nævner.",
-        "example": "Skriv 2/3 som /6."
+        "title": "Ækvivalente brøker",
+        "desc": "Udvide og forkorte.",
+        "example": "2/3 = ?/6"
       },
       {
         "level": 5,
         "title": "Addition (samme nævner)",
-        "desc": "Læg brøker sammen når nævneren er ens.",
-        "example": "1/8 + 5/8 = ?"
+        "desc": "Læg tællere sammen.",
+        "example": "1/8+5/8"
       },
       {
         "level": 6,
         "title": "Subtraktion (samme nævner)",
-        "desc": "Træk brøker fra med samme nævner.",
-        "example": "7/10 − 3/10 = ?"
+        "desc": "Træk tællere fra.",
+        "example": "7/10−3/10"
       },
       {
         "level": 7,
-        "title": "Addition (forskellige nævnere)",
-        "desc": "Find fællesnævner og læg brøker sammen.",
-        "example": "1/4 + 1/6 = ?"
+        "title": "Addition (forskel. nævner)",
+        "desc": "Find fællesnævner.",
+        "example": "1/4+1/6"
       },
       {
         "level": 8,
-        "title": "Subtraktion (forskellige nævnere)",
-        "desc": "Find fællesnævner og træk brøker fra.",
-        "example": "3/5 − 1/10 = ?"
+        "title": "Subtraktion (forskel. nævner)",
+        "desc": "Find fællesnævner.",
+        "example": "3/5−1/10"
       },
       {
         "level": 9,
-        "title": "Brøk ↔ decimaltal/procent",
-        "desc": "Konverter mellem brøk, decimaltal og procent.",
-        "example": "Skriv 3/4 som decimaltal og procent."
+        "title": "Brøk ↔ decimal/procent",
+        "desc": "Konvertering.",
+        "example": "3/4 = ?"
       },
       {
         "level": 10,
-        "title": "Blandede tal og tekstopgaver",
-        "desc": "Regn med blandede tal og anvend i kontekst.",
-        "example": "1 1/2 + 3/4 = ? og brug i en opskrift."
+        "title": "Blandede tal & kontekst",
+        "desc": "Uægte brøker og tekstopgaver.",
+        "example": "1 1/2 + 3/4"
       }
     ]
   },
@@ -70,62 +70,62 @@
       {
         "level": 1,
         "title": "Hvad er procent?",
-        "desc": "Forstå procent som 'pr. hundrede'.",
-        "example": "Marker 50% på et 10×10 gitter."
+        "desc": "Pr. hundrede.",
+        "example": "Marker 50%"
       },
       {
         "level": 2,
         "title": "Procent ↔ brøk/decimal",
-        "desc": "Konverter enkle procenter.",
-        "example": "25% = ? som brøk og decimaltal."
+        "desc": "Konvertering.",
+        "example": "25% = ?"
       },
       {
         "level": 3,
         "title": "Find procent af tal",
-        "desc": "Beregn p% af et helt tal.",
-        "example": "Hvad er 20% af 150?"
+        "desc": "p% af N.",
+        "example": "20% af 150"
       },
       {
         "level": 4,
-        "title": "Enkle rabatter",
-        "desc": "Udregn rabatter i én transaktion.",
-        "example": "30% rabat på 400 kr = ?"
+        "title": "Rabat",
+        "desc": "Nedslag i %.",
+        "example": "30% af 400"
       },
       {
         "level": 5,
-        "title": "Procentstigning/fald",
-        "desc": "Beregn ændringer i procent.",
-        "example": "Pris 200 → 240. Hvor mange %?"
+        "title": "Omvendt procent",
+        "desc": "Find før-pris.",
+        "example": "80 kr efter 20%"
       },
       {
         "level": 6,
-        "title": "Omvendt procent",
-        "desc": "Find udgangspunktet før procentændring.",
-        "example": "Efter 20% rabat koster varen 80 kr. Hvad kostede den før?"
+        "title": "Procentændringer",
+        "desc": "Stigning/fald.",
+        "example": "200→240"
       },
       {
         "level": 7,
         "title": "Kombinerede ændringer",
-        "desc": "Flere procentændringer i træk.",
-        "example": "+10% og derefter −10% på 100 kr = ?"
+        "desc": "Flere i træk.",
+        "example": "+10% derefter −10%"
       },
       {
         "level": 8,
         "title": "Procent i hverdagen",
-        "desc": "Moms, drikkepenge, skat.",
-        "example": "Beregn 25% moms af 560 kr."
+        "desc": "Moms/drikkepenge.",
+        "example": "25% moms"
       },
       {
         "level": 9,
         "title": "Procentpoint vs. procent",
-        "desc": "Skeln mellem %-point og %.",
-        "example": "Stigning fra 12% til 15% = ? %-point og ? %."
+        "desc": "Skeln.",
+        "example": "12%→15%"
       },
       {
         "level": 10,
-        "title": "Avanceret: rente og vækst",
-        "desc": "Eksponentiel vækst og rentes rente (uden formler).",
-        "example": "1.5% pr. måned i 6 mdr på 2000 kr ≈ ?"
+        "title": "Rente og vækst",
+        "desc": "Eksponentiel vækst.",
+        "example": "månedlig %"
       }
     ]
   },
@@ -135,62 +135,62 @@
       {
         "level": 1,
         "title": "Grundfigurer",
-        "desc": "Genkend trekant, firkant, cirkel, rektangel, kvadrat.",
-        "example": "Vælg alle trekanter."
+        "desc": "Trekant, firkant, cirkel.",
+        "example": "Vælg trekanter"
       },
       {
         "level": 2,
         "title": "Vinkler",
-        "desc": "Ret, stump, spids vinkel; måleenhed grader.",
-        "example": "Er 120° stump eller spids?"
+        "desc": "Ret/spids/stump.",
+        "example": "120° = ?"
       },
       {
         "level": 3,
         "title": "Omkreds (simple)",
-        "desc": "Omkreds af rektangel og trekant.",
-        "example": "Omkreds af 3×5 rektangel."
+        "desc": "Rektangel/trekant.",
+        "example": "3×5"
       },
       {
         "level": 4,
-        "title": "Areal (firkant/trekant)",
-        "desc": "Arealformler for rektangel/trekant.",
-        "example": "Areal af 8×4 rektangel."
+        "title": "Areal (rekt/trek)",
+        "desc": "Formler.",
+        "example": "8×4"
       },
       {
         "level": 5,
         "title": "Areal (cirkel)",
-        "desc": "Areal af cirkel (πr²).",
-        "example": "Areal med r = 3 cm."
+        "desc": "πr².",
+        "example": "r=3"
       },
       {
         "level": 6,
         "title": "Sammensatte figurer",
-        "desc": "Del op i kendte figurer.",
-        "example": "Areal af L-formet figur."
+        "desc": "Opdel & sum.",
+        "example": "L‑form"
       },
       {
         "level": 7,
-        "title": "Volumen (kasse/cylinder)",
-        "desc": "V = l·b·h og V = πr²h.",
-        "example": "Volumen af kasse 2×3×5."
+        "title": "Volumen",
+        "desc": "Kasse/cylinder.",
+        "example": "2×3×5"
       },
       {
         "level": 8,
         "title": "Overfladeareal",
-        "desc": "Overflade af kasse/cylinder.",
-        "example": "Overfladeareal af 2×3×5 kasse."
+        "desc": "Kasse/cylinder.",
+        "example": "2×3×5"
       },
       {
         "level": 9,
-        "title": "Pythagoras og skala",
-        "desc": "c² = a² + b² og simple skaleringer.",
-        "example": "Hypotenuse for 6-8-?"
+        "title": "Pythagoras & skala",
+        "desc": "c²=a²+b².",
+        "example": "6‑8‑?"
       },
       {
         "level": 10,
-        "title": "Avanceret geometri i kontekst",
-        "desc": "Problemløsning med flere formler.",
-        "example": "Find areal af sammensat figur med cirkelsektor."
+        "title": "Avanceret kontekst",
+        "desc": "Flere formler i spil.",
+        "example": "cirkelsektor"
       }
     ]
   }
