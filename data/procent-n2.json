@@ -519,6 +519,50 @@
       "unit": "kr",
       "hint": "1 kr = 100 øre.",
       "feedback_key": "currency_ore_confusion"
+    },
+    {
+      "id": "procent-unit-kr2ore-2-1-2",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Omregn 12 kr til øre.",
+      "answer": 1200,
+      "format": "number",
+      "unit": "øre",
+      "hint": "1 kr = 100 øre.",
+      "feedback_key": "currency_ore_confusion"
+    },
+    {
+      "id": "procent-unit-ore2kr-2-1-2",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Omregn 1200 øre til kroner.",
+      "answer": 12,
+      "format": "number",
+      "unit": "kr",
+      "hint": "1 kr = 100 øre.",
+      "feedback_key": "currency_ore_confusion"
+    },
+    {
+      "id": "procent-unit-kr2ore-2-2-2",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Omregn 12 kr til øre.",
+      "answer": 1200,
+      "format": "number",
+      "unit": "øre",
+      "hint": "1 kr = 100 øre.",
+      "feedback_key": "currency_ore_confusion"
+    },
+    {
+      "id": "procent-unit-ore2kr-2-2-2",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Omregn 1200 øre til kroner.",
+      "answer": 12,
+      "format": "number",
+      "unit": "kr",
+      "hint": "1 kr = 100 øre.",
+      "feedback_key": "currency_ore_confusion"
     }
   ]
 }

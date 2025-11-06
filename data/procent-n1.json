@@ -519,6 +519,50 @@
       "unit": "kr",
       "hint": "1 kr = 100 øre.",
       "feedback_key": "currency_ore_confusion"
+    },
+    {
+      "id": "procent-unit-kr2ore-1-1-2",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Omregn 25 kr til øre.",
+      "answer": 2500,
+      "format": "number",
+      "unit": "øre",
+      "hint": "1 kr = 100 øre.",
+      "feedback_key": "currency_ore_confusion"
+    },
+    {
+      "id": "procent-unit-ore2kr-1-1-2",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Omregn 2500 øre til kroner.",
+      "answer": 25,
+      "format": "number",
+      "unit": "kr",
+      "hint": "1 kr = 100 øre.",
+      "feedback_key": "currency_ore_confusion"
+    },
+    {
+      "id": "procent-unit-kr2ore-1-2-2",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Omregn 25 kr til øre.",
+      "answer": 2500,
+      "format": "number",
+      "unit": "øre",
+      "hint": "1 kr = 100 øre.",
+      "feedback_key": "currency_ore_confusion"
+    },
+    {
+      "id": "procent-unit-ore2kr-1-2-2",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Omregn 2500 øre til kroner.",
+      "answer": 25,
+      "format": "number",
+      "unit": "kr",
+      "hint": "1 kr = 100 øre.",
+      "feedback_key": "currency_ore_confusion"
     }
   ]
 }

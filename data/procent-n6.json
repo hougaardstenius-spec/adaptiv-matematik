@@ -545,6 +545,28 @@
       "unit": "kr/L",
       "hint": "mL→L divider med 1000.",
       "feedback_key": "ml_l_confusion"
+    },
+    {
+      "id": "procent-unit-perL-6-1-2",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "En flaske på 330 mL koster 9.0 kr. Hvad er prisen pr. liter?",
+      "answer": 27.27,
+      "format": "number",
+      "unit": "kr/L",
+      "hint": "Omregn mL→L (divider med 1000).",
+      "feedback_key": "ml_l_confusion"
+    },
+    {
+      "id": "procent-unit-perL-6-2-2",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "En flaske på 330 mL koster 9.0 kr. Hvad er prisen pr. liter?",
+      "answer": 27.27,
+      "format": "number",
+      "unit": "kr/L",
+      "hint": "Omregn mL→L (divider med 1000).",
+      "feedback_key": "ml_l_confusion"
     }
   ]
 }

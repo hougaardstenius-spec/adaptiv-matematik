@@ -545,6 +545,28 @@
       "unit": "m/s",
       "hint": "m/s = km/h ÷ 3,6.",
       "feedback_key": "kmh_ms_confusion"
+    },
+    {
+      "id": "procent-unit-kmh2ms-7-1-2",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "Omregn 72 km/h til m/s (afrund 2 dec.).",
+      "answer": 20.0,
+      "format": "number",
+      "unit": "m/s",
+      "hint": "m/s = km/h ÷ 3,6.",
+      "feedback_key": "kmh_ms_confusion"
+    },
+    {
+      "id": "procent-unit-kmh2ms-7-2-2",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "Omregn 72 km/h til m/s (afrund 2 dec.).",
+      "answer": 20.0,
+      "format": "number",
+      "unit": "m/s",
+      "hint": "m/s = km/h ÷ 3,6.",
+      "feedback_key": "kmh_ms_confusion"
     }
   ]
 }

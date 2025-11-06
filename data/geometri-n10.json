@@ -549,6 +549,50 @@
       "unit": "m^3",
       "hint": "1 m³ = 1.000.000 cm³.",
       "feedback_key": "volume_factor_not_cubed"
+    },
+    {
+      "id": "geo-unit-ml2l-10-1-2",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "Omregn 2500 mL til liter.",
+      "answer": 2.5,
+      "format": "number",
+      "unit": "L",
+      "hint": "1 L = 1000 mL.",
+      "feedback_key": "ml_l_confusion"
+    },
+    {
+      "id": "geo-unit-ml2l-10-2-2",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "Omregn 2500 mL til liter.",
+      "answer": 2.5,
+      "format": "number",
+      "unit": "L",
+      "hint": "1 L = 1000 mL.",
+      "feedback_key": "ml_l_confusion"
+    },
+    {
+      "id": "geo-unit-cm3tom3-10-1-2",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "Omregn 27000 cm³ til m³.",
+      "answer": 0.027,
+      "format": "number",
+      "unit": "m^3",
+      "hint": "1 m³ = 1.000.000 cm³.",
+      "feedback_key": "volume_factor_not_cubed"
+    },
+    {
+      "id": "geo-unit-cm3tom3-10-2-2",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "Omregn 1000 cm³ til m³.",
+      "answer": 0.001,
+      "format": "number",
+      "unit": "m^3",
+      "hint": "1 m³ = 1.000.000 cm³.",
+      "feedback_key": "volume_factor_not_cubed"
     }
   ]
 }

@@ -52,3 +52,9 @@ vercel --prod
 
 ## Licens
 Fri brug i undervisning. © 2025
+
+
+
+## Enhedskonvertering
+- Tilføjet opgaver for længde (mm↔cm↔m), areal (cm²↔m²), volumen (mL↔L, cm³↔m³), hastighed (km/h↔m/s), tid (min↔s), masse (g↔kg) og valuta (kr↔øre).
+- Opgaverne har targeted feedback ved klassiske fejl (f.eks. areal i anden, volumen i tredje, km/h↔m/s med 3,6 osv.).

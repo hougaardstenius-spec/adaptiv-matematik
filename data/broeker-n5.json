@@ -472,6 +472,50 @@
       "unit": "s",
       "hint": "1 min = 60 s.",
       "feedback_key": "time_conversion_confusion"
+    },
+    {
+      "id": "broeker-unit-g2kg-5-1-2",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Omregn 250 g til kg.",
+      "answer": 0.25,
+      "format": "number",
+      "unit": "kg",
+      "hint": "1 kg = 1000 g.",
+      "feedback_key": "g_kg_confusion"
+    },
+    {
+      "id": "broeker-unit-g2kg-5-2-2",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Omregn 750 g til kg.",
+      "answer": 0.75,
+      "format": "number",
+      "unit": "kg",
+      "hint": "1 kg = 1000 g.",
+      "feedback_key": "g_kg_confusion"
+    },
+    {
+      "id": "broeker-unit-min2s-5-1-2",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Omregn 12 min til sekunder.",
+      "answer": 720,
+      "format": "number",
+      "unit": "s",
+      "hint": "1 min = 60 s.",
+      "feedback_key": "time_conversion_confusion"
+    },
+    {
+      "id": "broeker-unit-min2s-5-2-2",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Omregn 12 min til sekunder.",
+      "answer": 720,
+      "format": "number",
+      "unit": "s",
+      "hint": "1 min = 60 s.",
+      "feedback_key": "time_conversion_confusion"
     }
   ]
 }

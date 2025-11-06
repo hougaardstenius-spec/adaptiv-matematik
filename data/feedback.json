@@ -29,5 +29,6 @@
   "ml_l_confusion": "1 L = 1000 mL. For mL→L divider med 1000 (omvendt: gang).",
   "g_kg_confusion": "1 kg = 1000 g. g→kg: divider med 1000 (omvendt: gang).",
   "kmh_ms_confusion": "km/h↔m/s: divider/multiplicer med 3,6 (1 m/s = 3,6 km/h).",
-  "time_conversion_confusion": "Tid: 1 min = 60 s, 1 h = 60 min. Brug korrekt faktor og retning."
+  "time_conversion_confusion": "Tid: 1 min = 60 s, 1 h = 60 min. Brug korrekt faktor og retning.",
+  "currency_ore_confusion": "Valuta: 1 kr = 100 øre. Divider/gange 100 i korrekt retning."
 }

@@ -533,6 +533,50 @@
       "unit": "cm",
       "hint": "1 m = 100 cm.",
       "feedback_key": "length_factor_wrong"
+    },
+    {
+      "id": "geo-unit-mm2cm-1-1-2",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Omregn 120 mm til cm.",
+      "answer": 12.0,
+      "format": "number",
+      "unit": "cm",
+      "hint": "1 cm = 10 mm.",
+      "feedback_key": "length_factor_wrong"
+    },
+    {
+      "id": "geo-unit-m2cm-1-1-2",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Omregn 3 m til cm.",
+      "answer": 300,
+      "format": "number",
+      "unit": "cm",
+      "hint": "1 m = 100 cm.",
+      "feedback_key": "length_factor_wrong"
+    },
+    {
+      "id": "geo-unit-mm2cm-1-2-2",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Omregn 500 mm til cm.",
+      "answer": 50.0,
+      "format": "number",
+      "unit": "cm",
+      "hint": "1 cm = 10 mm.",
+      "feedback_key": "length_factor_wrong"
+    },
+    {
+      "id": "geo-unit-m2cm-1-2-2",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Omregn 2 m til cm.",
+      "answer": 200,
+      "format": "number",
+      "unit": "cm",
+      "hint": "1 m = 100 cm.",
+      "feedback_key": "length_factor_wrong"
     }
   ]
 }

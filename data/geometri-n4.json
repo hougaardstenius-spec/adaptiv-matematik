@@ -493,6 +493,28 @@
       "unit": "m^2",
       "hint": "1 m² = 10.000 cm².",
       "feedback_key": "area_factor_not_squared"
+    },
+    {
+      "id": "geo-unit-cm2tom2-4-1-2",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "Omregn 3600 cm² til m².",
+      "answer": 0.36,
+      "format": "number",
+      "unit": "m^2",
+      "hint": "1 m² = 10.000 cm².",
+      "feedback_key": "area_factor_not_squared"
+    },
+    {
+      "id": "geo-unit-cm2tom2-4-2-2",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "Omregn 2500 cm² til m².",
+      "answer": 0.25,
+      "format": "number",
+      "unit": "m^2",
+      "hint": "1 m² = 10.000 cm².",
+      "feedback_key": "area_factor_not_squared"
     }
   ]
 }
