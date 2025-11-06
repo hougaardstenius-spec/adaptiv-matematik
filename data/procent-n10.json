@@ -1,0 +1,78 @@
+{
+  "subject": "procent",
+  "level": 10,
+  "tasks": [
+    {
+      "id": "procent-n10-m2",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "En pris på 200 kr stiger med 20%. Hvad er den nye pris?",
+      "answer": 240.0,
+      "format": "number",
+      "hint": "Gange med 1±p/100."
+    },
+    {
+      "id": "procent-n10-e3",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Hvad er 5% af 100?",
+      "answer": 5.0,
+      "format": "number",
+      "hint": "(procent/100) × tal."
+    },
+    {
+      "id": "procent-n10-e2",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Hvad er 25% af 150?",
+      "answer": 37.5,
+      "format": "number",
+      "hint": "(procent/100) × tal."
+    },
+    {
+      "id": "procent-n10-m3",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "En pris på 300 kr falder med 20%. Hvad er den nye pris?",
+      "answer": 240.0,
+      "format": "number",
+      "hint": "Gange med 1±p/100."
+    },
+    {
+      "id": "procent-n10-e1",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Hvad er 20% af 80?",
+      "answer": 16.0,
+      "format": "number",
+      "hint": "(procent/100) × tal."
+    },
+    {
+      "id": "procent-n10-m1",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "En pris på 250 kr falder med 10%. Hvad er den nye pris?",
+      "answer": 225.0,
+      "format": "number",
+      "hint": "Gange med 1±p/100."
+    },
+    {
+      "id": "procent-n10-h2",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "Simpel rentes rente: Opsparing 2500 kr vokser 2.0% pr. måned i 6 måneder. Hvor meget er gevinsten (afrund 2 dec.)?",
+      "answer": 24.88,
+      "format": "number",
+      "hint": "A = P·(1+r)^t. Gevinst = A−P."
+    },
+    {
+      "id": "procent-n10-h1",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "En vare koster 400 kr uden moms. Hvad er prisen med 25% moms?",
+      "answer": 500.0,
+      "format": "number",
+      "hint": "Netto × 1,25."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "subject": "geometri",
+  "level": 4,
+  "tasks": [
+    {
+      "id": "geometri-n4-h1",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "Et gulv er 13 m × 4 m. Hvor mange m² skal dækkes med fliser?",
+      "answer": 52,
+      "format": "number",
+      "hint": "Rektanglets areal = l×b."
+    },
+    {
+      "id": "geometri-n4-e2",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Areal af et rektangel med længde 10 og bredde 6 (enheder^2)?",
+      "answer": 60,
+      "format": "number",
+      "hint": "A = l × b."
+    },
+    {
+      "id": "geometri-n4-h2",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "En rund plæne har diameter 17 m. Cirka hvor stort er arealet? (brug π≈3,14)",
+      "answer": 226.87,
+      "format": "number",
+      "hint": "A = π·r², hvor r = d/2."
+    },
+    {
+      "id": "geometri-n4-m2",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "Areal af cirkel med radius 3 (brug π≈3,14, afrund 2 dec.)?",
+      "answer": 28.26,
+      "format": "number",
+      "hint": "A = π·r²."
+    },
+    {
+      "id": "geometri-n4-e1",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Areal af et rektangel med længde 9 og bredde 6 (enheder^2)?",
+      "answer": 54,
+      "format": "number",
+      "hint": "A = l × b."
+    },
+    {
+      "id": "geometri-n4-m1",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "Areal af cirkel med radius 3 (brug π≈3,14, afrund 2 dec.)?",
+      "answer": 28.26,
+      "format": "number",
+      "hint": "A = π·r²."
+    },
+    {
+      "id": "geometri-n4-m3",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "Areal af cirkel med radius 2 (brug π≈3,14, afrund 2 dec.)?",
+      "answer": 12.56,
+      "format": "number",
+      "hint": "A = π·r²."
+    },
+    {
+      "id": "geometri-n4-e3",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Areal af et rektangel med længde 3 og bredde 5 (enheder^2)?",
+      "answer": 15,
+      "format": "number",
+      "hint": "A = l × b."
+    }
+  ]
+}

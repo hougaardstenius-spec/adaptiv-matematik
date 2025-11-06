@@ -1,0 +1,78 @@
+{
+  "subject": "geometri",
+  "level": 5,
+  "tasks": [
+    {
+      "id": "geometri-n5-h1",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "Et gulv er 6 m × 6 m. Hvor mange m² skal dækkes med fliser?",
+      "answer": 36,
+      "format": "number",
+      "hint": "Rektanglets areal = l×b."
+    },
+    {
+      "id": "geometri-n5-m3",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "Areal af trekant med grundlinje 10 og højde 10?",
+      "answer": 50.0,
+      "format": "number",
+      "hint": "A = g × h / 2."
+    },
+    {
+      "id": "geometri-n5-e3",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Areal af et rektangel med længde 4 og bredde 2 (enheder^2)?",
+      "answer": 8,
+      "format": "number",
+      "hint": "A = l × b."
+    },
+    {
+      "id": "geometri-n5-e2",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Areal af et rektangel med længde 9 og bredde 7 (enheder^2)?",
+      "answer": 63,
+      "format": "number",
+      "hint": "A = l × b."
+    },
+    {
+      "id": "geometri-n5-h2",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "En rund plæne har diameter 7 m. Cirka hvor stort er arealet? (brug π≈3,14)",
+      "answer": 38.47,
+      "format": "number",
+      "hint": "A = π·r², hvor r = d/2."
+    },
+    {
+      "id": "geometri-n5-m2",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "Areal af cirkel med radius 2 (brug π≈3,14, afrund 2 dec.)?",
+      "answer": 12.56,
+      "format": "number",
+      "hint": "A = π·r²."
+    },
+    {
+      "id": "geometri-n5-e1",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Areal af et rektangel med længde 9 og bredde 9 (enheder^2)?",
+      "answer": 81,
+      "format": "number",
+      "hint": "A = l × b."
+    },
+    {
+      "id": "geometri-n5-m1",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "Areal af cirkel med radius 8 (brug π≈3,14, afrund 2 dec.)?",
+      "answer": 200.96,
+      "format": "number",
+      "hint": "A = π·r²."
+    }
+  ]
+}

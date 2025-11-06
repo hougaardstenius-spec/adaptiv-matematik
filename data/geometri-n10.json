@@ -1,0 +1,78 @@
+{
+  "subject": "geometri",
+  "level": 10,
+  "tasks": [
+    {
+      "id": "geometri-n10-e3",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Areal af et rektangel med længde 2 og bredde 5 (enheder^2)?",
+      "answer": 10,
+      "format": "number",
+      "hint": "A = l × b."
+    },
+    {
+      "id": "geometri-n10-m3",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "Areal af cirkel med radius 2 (brug π≈3,14, afrund 2 dec.)?",
+      "answer": 12.56,
+      "format": "number",
+      "hint": "A = π·r²."
+    },
+    {
+      "id": "geometri-n10-h1",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "Et gulv er 12 m × 15 m. Hvor mange m² skal dækkes med fliser?",
+      "answer": 180,
+      "format": "number",
+      "hint": "Rektanglets areal = l×b."
+    },
+    {
+      "id": "geometri-n10-e2",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Areal af et rektangel med længde 9 og bredde 9 (enheder^2)?",
+      "answer": 81,
+      "format": "number",
+      "hint": "A = l × b."
+    },
+    {
+      "id": "geometri-n10-h2",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "En rund plæne har diameter 14 m. Cirka hvor stort er arealet? (brug π≈3,14)",
+      "answer": 153.86,
+      "format": "number",
+      "hint": "A = π·r², hvor r = d/2."
+    },
+    {
+      "id": "geometri-n10-m1",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "Areal af cirkel med radius 6 (brug π≈3,14, afrund 2 dec.)?",
+      "answer": 113.04,
+      "format": "number",
+      "hint": "A = π·r²."
+    },
+    {
+      "id": "geometri-n10-m2",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "Areal af trekant med grundlinje 8 og højde 10?",
+      "answer": 40.0,
+      "format": "number",
+      "hint": "A = g × h / 2."
+    },
+    {
+      "id": "geometri-n10-e1",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Areal af et rektangel med længde 10 og bredde 7 (enheder^2)?",
+      "answer": 70,
+      "format": "number",
+      "hint": "A = l × b."
+    }
+  ]
+}

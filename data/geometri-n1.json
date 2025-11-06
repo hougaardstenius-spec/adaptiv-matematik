@@ -1,0 +1,78 @@
+{
+  "subject": "geometri",
+  "level": 1,
+  "tasks": [
+    {
+      "id": "geometri-n1-m2",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "Areal af cirkel med radius 8 (brug π≈3,14, afrund 2 dec.)?",
+      "answer": 200.96,
+      "format": "number",
+      "hint": "A = π·r²."
+    },
+    {
+      "id": "geometri-n1-h1",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "Et gulv er 7 m × 8 m. Hvor mange m² skal dækkes med gulvplader?",
+      "answer": 56,
+      "format": "number",
+      "hint": "Rektanglets areal = l×b."
+    },
+    {
+      "id": "geometri-n1-h2",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "Et gulv er 19 m × 13 m. Hvor mange m² skal dækkes med gulvplader?",
+      "answer": 247,
+      "format": "number",
+      "hint": "Rektanglets areal = l×b."
+    },
+    {
+      "id": "geometri-n1-e2",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Areal af et rektangel med længde 4 og bredde 10 (enheder^2)?",
+      "answer": 40,
+      "format": "number",
+      "hint": "A = l × b."
+    },
+    {
+      "id": "geometri-n1-e3",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Areal af et rektangel med længde 6 og bredde 10 (enheder^2)?",
+      "answer": 60,
+      "format": "number",
+      "hint": "A = l × b."
+    },
+    {
+      "id": "geometri-n1-m1",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "Areal af cirkel med radius 5 (brug π≈3,14, afrund 2 dec.)?",
+      "answer": 78.5,
+      "format": "number",
+      "hint": "A = π·r²."
+    },
+    {
+      "id": "geometri-n1-e1",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Areal af et rektangel med længde 4 og bredde 8 (enheder^2)?",
+      "answer": 32,
+      "format": "number",
+      "hint": "A = l × b."
+    },
+    {
+      "id": "geometri-n1-m3",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "Areal af cirkel med radius 4 (brug π≈3,14, afrund 2 dec.)?",
+      "answer": 50.24,
+      "format": "number",
+      "hint": "A = π·r²."
+    }
+  ]
+}

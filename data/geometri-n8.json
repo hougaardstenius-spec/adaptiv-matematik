@@ -1,0 +1,78 @@
+{
+  "subject": "geometri",
+  "level": 8,
+  "tasks": [
+    {
+      "id": "geometri-n8-h1",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "En rund plæne har diameter 8 m. Cirka hvor stort er arealet? (brug π≈3,14)",
+      "answer": 50.24,
+      "format": "number",
+      "hint": "A = π·r², hvor r = d/2."
+    },
+    {
+      "id": "geometri-n8-m2",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "Areal af trekant med grundlinje 8 og højde 3?",
+      "answer": 12.0,
+      "format": "number",
+      "hint": "A = g × h / 2."
+    },
+    {
+      "id": "geometri-n8-e2",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Areal af et rektangel med længde 2 og bredde 8 (enheder^2)?",
+      "answer": 16,
+      "format": "number",
+      "hint": "A = l × b."
+    },
+    {
+      "id": "geometri-n8-m3",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "Areal af trekant med grundlinje 11 og højde 10?",
+      "answer": 55.0,
+      "format": "number",
+      "hint": "A = g × h / 2."
+    },
+    {
+      "id": "geometri-n8-e3",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Areal af et rektangel med længde 7 og bredde 6 (enheder^2)?",
+      "answer": 42,
+      "format": "number",
+      "hint": "A = l × b."
+    },
+    {
+      "id": "geometri-n8-m1",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "Areal af trekant med grundlinje 5 og højde 6?",
+      "answer": 15.0,
+      "format": "number",
+      "hint": "A = g × h / 2."
+    },
+    {
+      "id": "geometri-n8-e1",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Areal af et rektangel med længde 9 og bredde 3 (enheder^2)?",
+      "answer": 27,
+      "format": "number",
+      "hint": "A = l × b."
+    },
+    {
+      "id": "geometri-n8-h2",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "En rund plæne har diameter 16 m. Cirka hvor stort er arealet? (brug π≈3,14)",
+      "answer": 200.96,
+      "format": "number",
+      "hint": "A = π·r², hvor r = d/2."
+    }
+  ]
+}

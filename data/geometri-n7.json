@@ -1,0 +1,78 @@
+{
+  "subject": "geometri",
+  "level": 7,
+  "tasks": [
+    {
+      "id": "geometri-n7-e1",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Areal af et rektangel med længde 9 og bredde 3 (enheder^2)?",
+      "answer": 27,
+      "format": "number",
+      "hint": "A = l × b."
+    },
+    {
+      "id": "geometri-n7-m2",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "Areal af trekant med grundlinje 8 og højde 5?",
+      "answer": 20.0,
+      "format": "number",
+      "hint": "A = g × h / 2."
+    },
+    {
+      "id": "geometri-n7-h2",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "En rund plæne har diameter 13 m. Cirka hvor stort er arealet? (brug π≈3,14)",
+      "answer": 132.66,
+      "format": "number",
+      "hint": "A = π·r², hvor r = d/2."
+    },
+    {
+      "id": "geometri-n7-h1",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "En rund plæne har diameter 15 m. Cirka hvor stort er arealet? (brug π≈3,14)",
+      "answer": 176.62,
+      "format": "number",
+      "hint": "A = π·r², hvor r = d/2."
+    },
+    {
+      "id": "geometri-n7-e3",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Areal af et rektangel med længde 5 og bredde 8 (enheder^2)?",
+      "answer": 40,
+      "format": "number",
+      "hint": "A = l × b."
+    },
+    {
+      "id": "geometri-n7-m3",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "Areal af trekant med grundlinje 4 og højde 5?",
+      "answer": 10.0,
+      "format": "number",
+      "hint": "A = g × h / 2."
+    },
+    {
+      "id": "geometri-n7-m1",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "Areal af trekant med grundlinje 12 og højde 6?",
+      "answer": 36.0,
+      "format": "number",
+      "hint": "A = g × h / 2."
+    },
+    {
+      "id": "geometri-n7-e2",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Areal af et rektangel med længde 5 og bredde 6 (enheder^2)?",
+      "answer": 30,
+      "format": "number",
+      "hint": "A = l × b."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "subject": "geometri",
+  "level": 9,
+  "tasks": [
+    {
+      "id": "geometri-n9-e2",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Areal af et rektangel med længde 7 og bredde 8 (enheder^2)?",
+      "answer": 56,
+      "format": "number",
+      "hint": "A = l × b."
+    },
+    {
+      "id": "geometri-n9-e3",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Areal af et rektangel med længde 9 og bredde 6 (enheder^2)?",
+      "answer": 54,
+      "format": "number",
+      "hint": "A = l × b."
+    },
+    {
+      "id": "geometri-n9-h2",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "En rund plæne har diameter 19 m. Cirka hvor stort er arealet? (brug π≈3,14)",
+      "answer": 283.38,
+      "format": "number",
+      "hint": "A = π·r², hvor r = d/2."
+    },
+    {
+      "id": "geometri-n9-h1",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "En rund plæne har diameter 7 m. Cirka hvor stort er arealet? (brug π≈3,14)",
+      "answer": 38.47,
+      "format": "number",
+      "hint": "A = π·r², hvor r = d/2."
+    },
+    {
+      "id": "geometri-n9-m1",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "Areal af cirkel med radius 8 (brug π≈3,14, afrund 2 dec.)?",
+      "answer": 200.96,
+      "format": "number",
+      "hint": "A = π·r²."
+    },
+    {
+      "id": "geometri-n9-m2",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "Areal af trekant med grundlinje 11 og højde 4?",
+      "answer": 22.0,
+      "format": "number",
+      "hint": "A = g × h / 2."
+    },
+    {
+      "id": "geometri-n9-m3",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "Areal af cirkel med radius 4 (brug π≈3,14, afrund 2 dec.)?",
+      "answer": 50.24,
+      "format": "number",
+      "hint": "A = π·r²."
+    },
+    {
+      "id": "geometri-n9-e1",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Areal af et rektangel med længde 3 og bredde 4 (enheder^2)?",
+      "answer": 12,
+      "format": "number",
+      "hint": "A = l × b."
+    }
+  ]
+}

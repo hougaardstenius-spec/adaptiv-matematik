@@ -1,0 +1,110 @@
+{
+  "subject": "broeker",
+  "level": 8,
+  "tasks": [
+    {
+      "id": "broeker-n8-e2",
+      "type": "mcq",
+      "difficulty": "easy",
+      "prompt": "Beregn: 1/6 + 5/6",
+      "choices": [
+        "1/1",
+        "1/6",
+        "5/6"
+      ],
+      "answer": 0,
+      "hint": "Ved samme nævner lægges/trækkes tællerne."
+    },
+    {
+      "id": "broeker-n8-m1",
+      "type": "mcq",
+      "difficulty": "medium",
+      "prompt": "Beregn: 2/4 + 1/6",
+      "choices": [
+        "2/3",
+        "3/4",
+        "1/2"
+      ],
+      "answer": 0,
+      "hint": "Find fællesnævner (kgf/LCM) og regn på tællerne."
+    },
+    {
+      "id": "broeker-n8-e3",
+      "type": "mcq",
+      "difficulty": "easy",
+      "prompt": "Beregn: 1/6 + 5/6",
+      "choices": [
+        "1/1",
+        "1/6",
+        "5/6"
+      ],
+      "answer": 0,
+      "hint": "Ved samme nævner lægges/trækkes tællerne."
+    },
+    {
+      "id": "broeker-n8-m3",
+      "type": "mcq",
+      "difficulty": "medium",
+      "prompt": "Beregn: 2/5 + 6/10",
+      "choices": [
+        "1/1",
+        "8/5",
+        "2/5"
+      ],
+      "answer": 0,
+      "hint": "Find fællesnævner (kgf/LCM) og regn på tællerne."
+    },
+    {
+      "id": "broeker-n8-e1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "prompt": "Beregn: 1/8 - 1/8",
+      "choices": [
+        "0/1",
+        "1/8",
+        "1/8"
+      ],
+      "answer": 0,
+      "hint": "Ved samme nævner lægges/trækkes tællerne."
+    },
+    {
+      "id": "broeker-n8-h1",
+      "type": "mcq",
+      "difficulty": "hard",
+      "prompt": "Beregn: 2 2/5 + 1/5",
+      "choices": [
+        "13/5",
+        "12/5",
+        "3/5"
+      ],
+      "answer": 0,
+      "hint": "Lav blandet tal om til uægte brøk."
+    },
+    {
+      "id": "broeker-n8-m2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "prompt": "Beregn: 1/3 - 2/4",
+      "choices": [
+        "-1/6",
+        "1/3",
+        "1/3"
+      ],
+      "answer": 0,
+      "hint": "Find fællesnævner (kgf/LCM) og regn på tællerne."
+    },
+    {
+      "id": "broeker-n8-h2",
+      "type": "mcq",
+      "difficulty": "hard",
+      "prompt": "Beregn: 2 2/3 + 1/3",
+      "choices": [
+        "3/1",
+        "8/3",
+        "1/1"
+      ],
+      "answer": 0,
+      "hint": "Lav blandet tal om til uægte brøk."
+    }
+  ]
+}

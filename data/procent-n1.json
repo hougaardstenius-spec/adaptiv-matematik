@@ -1,0 +1,78 @@
+{
+  "subject": "procent",
+  "level": 1,
+  "tasks": [
+    {
+      "id": "procent-n1-h1",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "En vare koster 560 kr uden moms. Hvad er prisen med 25% moms?",
+      "answer": 700.0,
+      "format": "number",
+      "hint": "Netto × 1,25."
+    },
+    {
+      "id": "procent-n1-m2",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "En pris på 400 kr falder med 10%. Hvad er den nye pris?",
+      "answer": 360.0,
+      "format": "number",
+      "hint": "Gange med 1±p/100."
+    },
+    {
+      "id": "procent-n1-e2",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Hvad er 20% af 100?",
+      "answer": 20.0,
+      "format": "number",
+      "hint": "(procent/100) × tal."
+    },
+    {
+      "id": "procent-n1-e1",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Hvad er 5% af 150?",
+      "answer": 7.5,
+      "format": "number",
+      "hint": "(procent/100) × tal."
+    },
+    {
+      "id": "procent-n1-m3",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "En pris på 250 kr falder med 10%. Hvad er den nye pris?",
+      "answer": 225.0,
+      "format": "number",
+      "hint": "Gange med 1±p/100."
+    },
+    {
+      "id": "procent-n1-e3",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Hvad er 10% af 150?",
+      "answer": 15.0,
+      "format": "number",
+      "hint": "(procent/100) × tal."
+    },
+    {
+      "id": "procent-n1-h2",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "En vare koster 350 kr. Butikken giver 20% rabat. Hvad betaler du?",
+      "answer": 280.0,
+      "format": "number",
+      "hint": "Pris × (1 − rabat%)."
+    },
+    {
+      "id": "procent-n1-m1",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "En pris på 300 kr stiger med 10%. Hvad er den nye pris?",
+      "answer": 330.0,
+      "format": "number",
+      "hint": "Gange med 1±p/100."
+    }
+  ]
+}

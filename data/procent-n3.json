@@ -1,0 +1,78 @@
+{
+  "subject": "procent",
+  "level": 3,
+  "tasks": [
+    {
+      "id": "procent-n3-h2",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "En vare koster 560 kr uden moms. Hvad er prisen med 25% moms?",
+      "answer": 700.0,
+      "format": "number",
+      "hint": "Netto × 1,25."
+    },
+    {
+      "id": "procent-n3-m2",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "En pris på 300 kr stiger med 20%. Hvad er den nye pris?",
+      "answer": 360.0,
+      "format": "number",
+      "hint": "Gange med 1±p/100."
+    },
+    {
+      "id": "procent-n3-m3",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "En pris på 250 kr falder med 15%. Hvad er den nye pris?",
+      "answer": 212.5,
+      "format": "number",
+      "hint": "Gange med 1±p/100."
+    },
+    {
+      "id": "procent-n3-m1",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "En pris på 400 kr falder med 15%. Hvad er den nye pris?",
+      "answer": 340.0,
+      "format": "number",
+      "hint": "Gange med 1±p/100."
+    },
+    {
+      "id": "procent-n3-e2",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Hvad er 5% af 120?",
+      "answer": 6.0,
+      "format": "number",
+      "hint": "(procent/100) × tal."
+    },
+    {
+      "id": "procent-n3-h1",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "En vare koster 560 kr. Butikken giver 40% rabat. Hvad betaler du?",
+      "answer": 336.0,
+      "format": "number",
+      "hint": "Pris × (1 − rabat%)."
+    },
+    {
+      "id": "procent-n3-e3",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Hvad er 20% af 120?",
+      "answer": 24.0,
+      "format": "number",
+      "hint": "(procent/100) × tal."
+    },
+    {
+      "id": "procent-n3-e1",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Hvad er 20% af 80?",
+      "answer": 16.0,
+      "format": "number",
+      "hint": "(procent/100) × tal."
+    }
+  ]
+}

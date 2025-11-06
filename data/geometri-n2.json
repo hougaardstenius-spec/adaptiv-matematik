@@ -1,0 +1,78 @@
+{
+  "subject": "geometri",
+  "level": 2,
+  "tasks": [
+    {
+      "id": "geometri-n2-m2",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "Areal af trekant med grundlinje 7 og højde 9?",
+      "answer": 31.5,
+      "format": "number",
+      "hint": "A = g × h / 2."
+    },
+    {
+      "id": "geometri-n2-h1",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "Et gulv er 20 m × 14 m. Hvor mange m² skal dækkes med gulvplader?",
+      "answer": 280,
+      "format": "number",
+      "hint": "Rektanglets areal = l×b."
+    },
+    {
+      "id": "geometri-n2-m3",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "Areal af cirkel med radius 6 (brug π≈3,14, afrund 2 dec.)?",
+      "answer": 113.04,
+      "format": "number",
+      "hint": "A = π·r²."
+    },
+    {
+      "id": "geometri-n2-m1",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "Areal af trekant med grundlinje 12 og højde 6?",
+      "answer": 36.0,
+      "format": "number",
+      "hint": "A = g × h / 2."
+    },
+    {
+      "id": "geometri-n2-e2",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Areal af et rektangel med længde 7 og bredde 6 (enheder^2)?",
+      "answer": 42,
+      "format": "number",
+      "hint": "A = l × b."
+    },
+    {
+      "id": "geometri-n2-e3",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Areal af et rektangel med længde 6 og bredde 10 (enheder^2)?",
+      "answer": 60,
+      "format": "number",
+      "hint": "A = l × b."
+    },
+    {
+      "id": "geometri-n2-h2",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "En rund plæne har diameter 18 m. Cirka hvor stort er arealet? (brug π≈3,14)",
+      "answer": 254.34,
+      "format": "number",
+      "hint": "A = π·r², hvor r = d/2."
+    },
+    {
+      "id": "geometri-n2-e1",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Areal af et rektangel med længde 7 og bredde 6 (enheder^2)?",
+      "answer": 42,
+      "format": "number",
+      "hint": "A = l × b."
+    }
+  ]
+}

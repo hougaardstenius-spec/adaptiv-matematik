@@ -1,0 +1,45 @@
+{
+  "subject": "procent",
+  "levels": [
+    {
+      "level": 1,
+      "file": "procent-n1.json"
+    },
+    {
+      "level": 2,
+      "file": "procent-n2.json"
+    },
+    {
+      "level": 3,
+      "file": "procent-n3.json"
+    },
+    {
+      "level": 4,
+      "file": "procent-n4.json"
+    },
+    {
+      "level": 5,
+      "file": "procent-n5.json"
+    },
+    {
+      "level": 6,
+      "file": "procent-n6.json"
+    },
+    {
+      "level": 7,
+      "file": "procent-n7.json"
+    },
+    {
+      "level": 8,
+      "file": "procent-n8.json"
+    },
+    {
+      "level": 9,
+      "file": "procent-n9.json"
+    },
+    {
+      "level": 10,
+      "file": "procent-n10.json"
+    }
+  ]
+}

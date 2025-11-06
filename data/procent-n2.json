@@ -1,0 +1,78 @@
+{
+  "subject": "procent",
+  "level": 2,
+  "tasks": [
+    {
+      "id": "procent-n2-h2",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "En vare koster 480 kr. Butikken giver 20% rabat. Hvad betaler du?",
+      "answer": 384.0,
+      "format": "number",
+      "hint": "Pris × (1 − rabat%)."
+    },
+    {
+      "id": "procent-n2-e3",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Hvad er 10% af 120?",
+      "answer": 12.0,
+      "format": "number",
+      "hint": "(procent/100) × tal."
+    },
+    {
+      "id": "procent-n2-m1",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "En pris på 300 kr stiger med 10%. Hvad er den nye pris?",
+      "answer": 330.0,
+      "format": "number",
+      "hint": "Gange med 1±p/100."
+    },
+    {
+      "id": "procent-n2-e2",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Hvad er 5% af 80?",
+      "answer": 4.0,
+      "format": "number",
+      "hint": "(procent/100) × tal."
+    },
+    {
+      "id": "procent-n2-m3",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "En pris på 400 kr stiger med 20%. Hvad er den nye pris?",
+      "answer": 480.0,
+      "format": "number",
+      "hint": "Gange med 1±p/100."
+    },
+    {
+      "id": "procent-n2-m2",
+      "type": "numeric",
+      "difficulty": "medium",
+      "prompt": "En pris på 400 kr falder med 15%. Hvad er den nye pris?",
+      "answer": 340.0,
+      "format": "number",
+      "hint": "Gange med 1±p/100."
+    },
+    {
+      "id": "procent-n2-e1",
+      "type": "numeric",
+      "difficulty": "easy",
+      "prompt": "Hvad er 20% af 150?",
+      "answer": 30.0,
+      "format": "number",
+      "hint": "(procent/100) × tal."
+    },
+    {
+      "id": "procent-n2-h1",
+      "type": "numeric",
+      "difficulty": "hard",
+      "prompt": "En vare koster 800 kr uden moms. Hvad er prisen med 25% moms?",
+      "answer": 1000.0,
+      "format": "number",
+      "hint": "Netto × 1,25."
+    }
+  ]
+}
