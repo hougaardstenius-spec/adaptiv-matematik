@@ -1,21 +1,14 @@
 
 # Adaptive Matematik – Emner & niveauer (1–10)
 
-Statisk site med **adaptiv sværhedsgrad**, **elevprogression (localStorage)** og **kontekst-opgaver** for Procent & Geometri.
-
-## Ny funktionalitet
-- **(1) Adaptiv blanding** af opgaver i hvert niveau (8 spørgsmål):
-  - Niv. 1–3: 4 let / 3 mellem / 1 svær
-  - Niv. 4–6: 3 let / 3 mellem / 2 svær
-  - Niv. 7–8: 2 let / 3 mellem / 3 svær
-  - Niv. 9–10: 1 let / 3 mellem / 4 svær
-- **(2) Elevprogression** lagres i `localStorage`:
-  - Beståelseskrav: **6/8 korrekte** -> næste niveau låses op
-  - Progress-bar pr. emne, **Fortsæt hvor du slap** i header
-  - Historik pr. emne: beståede niveauer og højeste låste op
-- **(4) Kontekst-opgaver**:
-  - Procent: rabat, moms, (på n10 også rentes rente)
-  - Geometri: realistiske areal-/perimeter-scenarier (gulv, plæne)
+**Funktioner:**
+- Adaptiv blanding pr. niveau (8 opgaver/quiz) fra **30+ opgaver pr. niveau**.
+- **Opgavebanke**: Brøker, Procent, Geometri med kontekst- og enhedsopgaver.
+- **Progression** (localStorage) + “Fortsæt hvor du slap”.
+- **Feedback-bank** for typiske fejl (procentpoint vs %, radius vs diameter, areal/omkreds, enheder m.m.).
+- **Enheds-tilstand** + **streng enhedsvalidering** (kan toggles i headeren).
+- **XP & Badges**: XP-bar, streak-bonus, level-up, badges med strip/panel og toasts.
+- Klar til **statisk deploy på Vercel** (ingen build).
 
 ## Struktur
 ```
@@ -25,22 +18,37 @@ adaptive-math-levels/
 ├─ app.js
 ├─ vercel.json
 └─ data/
-   ├─ data.json
-   ├─ broeker-n1.json … broeker-n10.json
-   ├─ procent-n1.json … procent-n10.json
-   ├─ geometri-n1.json … geometri-n10.json
+   ├─ data.json                 # Emner og niveau-beskrivelser
+   ├─ feedback.json             # Feedback-bank
+   ├─ broeker-n1.json … n10     # Opgaver pr. niveau (30+)
+   ├─ procent-n1.json … n10
+   ├─ geometri-n1.json … n10
    ├─ broeker-index.json
    ├─ procent-index.json
    └─ geometri-index.json
 ```
 
-## Deploy til Vercel
-Ingen build. Kør `vercel --prod` eller importér via GitHub. `vercel.json` sætter caching for `/data/*`.
+## Træningstilstande & enheder
+- **Træning** (i headeren): vælg *Alle opgaver* eller *Kun enheder*.
+- **Kræv korrekt enhed**: Når slået til, skal eleven angive korrekt enhed for numeric-opgaver med `unit` (fx `78,5 m^2`).
+- **Sværhedsvægte**: Justér fordeling (let/mellem/svær) pr. niveau-interval direkte i headeren.
 
-## Udvikling
-- Tilføj egne opgaver i `data/{subject}-n{level}.json` og sæt `difficulty` til `easy|medium|hard`.
-- Numeriske opgaver har tolerance ±0,01.
-- MCQ angiver `answer` som index i `choices`.
+**Enhedstjek (lenient):**
+- Accepterer varianter som `m2`/`m^2`, `cm2`/`cm^2`, `L`/`liter`, `m/s`/`m s^-1`.
+- Ved manglende/forkert enhed gives targeted feedback (fx `unit_missing_or_wrong`).
+
+## XP & Badges
+- **XP pr. korrekt**: easy 10, medium 20, hard 35; **streak-bonus** +5 pr. korrekt i træk (maks +25).
+- **Beståelsesbonus**: +50 XP ved ≥6/8.
+- **Badges**: Perfekt runde, Streak‑10, Speedrunner, Enheds‑Ace, Brøk‑mester, Procent‑Pro, Geometri‑Guru.
+
+## Deploy til Vercel
+- Importér som statisk projekt (ingen build) eller deploy via CLI:
+```bash
+npm i -g vercel
+vercel login
+vercel --prod
+```
 
 ## Licens
-Fri brug i undervisning. © DHS 2025
+Fri brug i undervisning. © 2025
