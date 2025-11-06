@@ -43,4 +43,4 @@ Ingen build. Kør `vercel --prod` eller importér via GitHub. `vercel.json` sæt
 - MCQ angiver `answer` som index i `choices`.
 
 ## Licens
-Fri brug i undervisning. © 2025
+Fri brug i undervisning. © DHS 2025
