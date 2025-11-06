@@ -1,3 +1,6 @@
+python3 scripts/generate_taskbanks.py
+python3 scripts/add_real_life_tasks.py
+python3 scripts/add_unit_conversion_tasks.py
 
 const PASS_REQUIRED = 6; // krævede korrekte svar ud af 8
 const STORAGE_KEY = 'am_progress_v1';
