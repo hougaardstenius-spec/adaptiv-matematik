@@ -16,8 +16,8 @@
       },
       {
         "level": 3,
-        "title": "Sammenligne brøker (samme nævner)",
-        "desc": "<, >, =",
+        "title": "Sammenligne (samme nævner)",
+        "desc": "<, >, = ved fælles nævner.",
         "example": "3/8 __ 5/8"
       },
       {
@@ -30,30 +30,30 @@
         "level": 5,
         "title": "Addition (samme nævner)",
         "desc": "Læg tællere sammen.",
-        "example": "1/8+5/8"
+        "example": "1/8 + 5/8"
       },
       {
         "level": 6,
         "title": "Subtraktion (samme nævner)",
         "desc": "Træk tællere fra.",
-        "example": "7/10−3/10"
+        "example": "7/10 − 3/10"
       },
       {
         "level": 7,
-        "title": "Addition (forskel. nævner)",
-        "desc": "Find fællesnævner.",
-        "example": "1/4+1/6"
+        "title": "Addition (forskellige nævnere)",
+        "desc": "Fællesnævner.",
+        "example": "1/4 + 1/6"
       },
       {
         "level": 8,
-        "title": "Subtraktion (forskel. nævner)",
-        "desc": "Find fællesnævner.",
-        "example": "3/5−1/10"
+        "title": "Subtraktion (forskellige nævnere)",
+        "desc": "Fællesnævner.",
+        "example": "3/5 − 1/10"
       },
       {
         "level": 9,
         "title": "Brøk ↔ decimal/procent",
-        "desc": "Konvertering.",
+        "desc": "Konvertering mellem repræsentationer.",
         "example": "3/4 = ?"
       },
       {
@@ -81,8 +81,8 @@
       },
       {
         "level": 3,
-        "title": "Find procent af tal",
-        "desc": "p% af N.",
+        "title": "p% af tal",
+        "desc": "Beregn procent af tal.",
         "example": "20% af 150"
       },
       {
@@ -94,7 +94,7 @@
       {
         "level": 5,
         "title": "Omvendt procent",
-        "desc": "Find før-pris.",
+        "desc": "Find før‑pris.",
         "example": "80 kr efter 20%"
       },
       {
@@ -112,18 +112,18 @@
       {
         "level": 8,
         "title": "Procent i hverdagen",
-        "desc": "Moms/drikkepenge.",
+        "desc": "Moms m.m.",
         "example": "25% moms"
       },
       {
         "level": 9,
         "title": "Procentpoint vs. procent",
-        "desc": "Skeln.",
+        "desc": "Skeln tydeligt.",
         "example": "12%→15%"
       },
       {
         "level": 10,
-        "title": "Rente og vækst",
+        "title": "Rentes rente",
         "desc": "Eksponentiel vækst.",
         "example": "månedlig %"
       }
@@ -142,7 +142,7 @@
         "level": 2,
         "title": "Vinkler",
         "desc": "Ret/spids/stump.",
-        "example": "120° = ?"
+        "example": "120°?"
       },
       {
         "level": 3,

@@ -6,11 +6,11 @@
       "id": "geometri-n5-eA1",
       "type": "numeric",
       "difficulty": "easy",
-      "prompt": "Areal af et rektangel 15 m × 11 m?",
+      "prompt": "Areal af rektangel 15 m × 11 m?",
       "answer": 165,
       "format": "number",
       "unit": "m^2",
-      "hint": "A = l × b.",
+      "hint": "A=l×b.",
       "distractors": [
         26
       ],
@@ -22,11 +22,11 @@
       "id": "geometri-n5-eA2",
       "type": "numeric",
       "difficulty": "easy",
-      "prompt": "Areal af et rektangel 15 m × 7 m?",
+      "prompt": "Areal af rektangel 15 m × 7 m?",
       "answer": 105,
       "format": "number",
       "unit": "m^2",
-      "hint": "A = l × b.",
+      "hint": "A=l×b.",
       "distractors": [
         22
       ],
@@ -38,11 +38,11 @@
       "id": "geometri-n5-eA3",
       "type": "numeric",
       "difficulty": "easy",
-      "prompt": "Areal af et rektangel 5 m × 20 m?",
+      "prompt": "Areal af rektangel 5 m × 20 m?",
       "answer": 100,
       "format": "number",
       "unit": "m^2",
-      "hint": "A = l × b.",
+      "hint": "A=l×b.",
       "distractors": [
         25
       ],
@@ -54,11 +54,11 @@
       "id": "geometri-n5-eA4",
       "type": "numeric",
       "difficulty": "easy",
-      "prompt": "Areal af et rektangel 6 m × 3 m?",
+      "prompt": "Areal af rektangel 6 m × 3 m?",
       "answer": 18,
       "format": "number",
       "unit": "m^2",
-      "hint": "A = l × b.",
+      "hint": "A=l×b.",
       "distractors": [
         9
       ],
@@ -70,11 +70,11 @@
       "id": "geometri-n5-eA5",
       "type": "numeric",
       "difficulty": "easy",
-      "prompt": "Areal af et rektangel 14 m × 11 m?",
+      "prompt": "Areal af rektangel 14 m × 11 m?",
       "answer": 154,
       "format": "number",
       "unit": "m^2",
-      "hint": "A = l × b.",
+      "hint": "A=l×b.",
       "distractors": [
         25
       ],
@@ -90,7 +90,7 @@
       "answer": 50,
       "format": "number",
       "unit": "m",
-      "hint": "Omkreds = 2(l+b)."
+      "hint": "Omkreds=2(l+b)."
     },
     {
       "id": "geometri-n5-eP2",
@@ -100,7 +100,7 @@
       "answer": 86,
       "format": "number",
       "unit": "m",
-      "hint": "Omkreds = 2(l+b)."
+      "hint": "Omkreds=2(l+b)."
     },
     {
       "id": "geometri-n5-eP3",
@@ -110,7 +110,7 @@
       "answer": 74,
       "format": "number",
       "unit": "m",
-      "hint": "Omkreds = 2(l+b)."
+      "hint": "Omkreds=2(l+b)."
     },
     {
       "id": "geometri-n5-eP4",
@@ -120,7 +120,7 @@
       "answer": 72,
       "format": "number",
       "unit": "m",
-      "hint": "Omkreds = 2(l+b)."
+      "hint": "Omkreds=2(l+b)."
     },
     {
       "id": "geometri-n5-eP5",
@@ -130,17 +130,17 @@
       "answer": 64,
       "format": "number",
       "unit": "m",
-      "hint": "Omkreds = 2(l+b)."
+      "hint": "Omkreds=2(l+b)."
     },
     {
       "id": "geometri-n5-mT1",
       "type": "numeric",
       "difficulty": "medium",
-      "prompt": "Areal af trekant med grundlinje 16 cm og højde 3 cm?",
+      "prompt": "Areal af trekant g=16 cm, h=3 cm?",
       "answer": 24.0,
       "format": "number",
       "unit": "cm^2",
-      "hint": "A = g × h / 2.",
+      "hint": "A=g×h/2.",
       "distractors": [
         48
       ],
@@ -152,11 +152,11 @@
       "id": "geometri-n5-mT2",
       "type": "numeric",
       "difficulty": "medium",
-      "prompt": "Areal af trekant med grundlinje 20 cm og højde 11 cm?",
+      "prompt": "Areal af trekant g=20 cm, h=11 cm?",
       "answer": 110.0,
       "format": "number",
       "unit": "cm^2",
-      "hint": "A = g × h / 2.",
+      "hint": "A=g×h/2.",
       "distractors": [
         220
       ],
@@ -168,11 +168,11 @@
       "id": "geometri-n5-mT3",
       "type": "numeric",
       "difficulty": "medium",
-      "prompt": "Areal af trekant med grundlinje 18 cm og højde 3 cm?",
+      "prompt": "Areal af trekant g=18 cm, h=3 cm?",
       "answer": 27.0,
       "format": "number",
       "unit": "cm^2",
-      "hint": "A = g × h / 2.",
+      "hint": "A=g×h/2.",
       "distractors": [
         54
       ],
@@ -184,11 +184,11 @@
       "id": "geometri-n5-mT4",
       "type": "numeric",
       "difficulty": "medium",
-      "prompt": "Areal af trekant med grundlinje 18 cm og højde 4 cm?",
+      "prompt": "Areal af trekant g=18 cm, h=4 cm?",
       "answer": 36.0,
       "format": "number",
       "unit": "cm^2",
-      "hint": "A = g × h / 2.",
+      "hint": "A=g×h/2.",
       "distractors": [
         72
       ],
@@ -200,11 +200,11 @@
       "id": "geometri-n5-mC1",
       "type": "numeric",
       "difficulty": "medium",
-      "prompt": "Areal af cirkel med **diameter** 10 m? (brug π≈3,14)",
+      "prompt": "Areal af cirkel med **diameter** 10 m? (π≈3,14)",
       "answer": 78.5,
       "format": "number",
       "unit": "m^2",
-      "hint": "r = d/2, A = π·r².",
+      "hint": "r=d/2, A=π·r².",
       "distractors": [
         314.0
       ],
@@ -216,57 +216,57 @@
       "id": "geometri-n5-mCr2",
       "type": "numeric",
       "difficulty": "medium",
-      "prompt": "Areal af cirkel med radius 18 m? (brug π≈3,14)",
+      "prompt": "Areal af cirkel med radius 18 m? (π≈3,14)",
       "answer": 1017.36,
       "format": "number",
       "unit": "m^2",
-      "hint": "A = π·r²."
+      "hint": "A=π·r²."
     },
     {
       "id": "geometri-n5-mCr3",
       "type": "numeric",
       "difficulty": "medium",
-      "prompt": "Areal af cirkel med radius 3 m? (brug π≈3,14)",
+      "prompt": "Areal af cirkel med radius 3 m? (π≈3,14)",
       "answer": 28.26,
       "format": "number",
       "unit": "m^2",
-      "hint": "A = π·r²."
+      "hint": "A=π·r²."
     },
     {
       "id": "geometri-n5-mCr4",
       "type": "numeric",
       "difficulty": "medium",
-      "prompt": "Areal af cirkel med radius 7 m? (brug π≈3,14)",
+      "prompt": "Areal af cirkel med radius 7 m? (π≈3,14)",
       "answer": 153.86,
       "format": "number",
       "unit": "m^2",
-      "hint": "A = π·r²."
+      "hint": "A=π·r²."
     },
     {
       "id": "geometri-n5-mS1",
       "type": "numeric",
       "difficulty": "medium",
-      "prompt": "Areal af sammensat figur (rektangler): 3×9 plus 5×5 (m). Angiv m².",
+      "prompt": "Areal af sammensat rektangel: 3×9 + 5×5 (m). Angiv m².",
       "answer": 52,
       "format": "number",
       "unit": "m^2",
-      "hint": "Del figuren og læg arealerne sammen."
+      "hint": "Del figuren og læg arealer."
     },
     {
       "id": "geometri-n5-mS2",
       "type": "numeric",
       "difficulty": "medium",
-      "prompt": "Areal af sammensat figur (rektangler): 3×9 plus 7×8 (m). Angiv m².",
+      "prompt": "Areal af sammensat rektangel: 3×9 + 7×8 (m). Angiv m².",
       "answer": 83,
       "format": "number",
       "unit": "m^2",
-      "hint": "Del figuren og læg arealerne sammen."
+      "hint": "Del figuren og læg arealer."
     },
     {
       "id": "geometri-n5-hPer1",
       "type": "numeric",
       "difficulty": "hard",
-      "prompt": "Hvor mange **meter** fodliste langs kanten af et rum 26 m × 8 m?",
+      "prompt": "Hvor mange **meter** fodliste langs kanten af 26 m × 8 m?",
       "answer": 68,
       "format": "number",
       "unit": "m",
@@ -282,7 +282,7 @@
       "id": "geometri-n5-hPer2",
       "type": "numeric",
       "difficulty": "hard",
-      "prompt": "Hvor mange **meter** fodliste langs kanten af et rum 30 m × 7 m?",
+      "prompt": "Hvor mange **meter** fodliste langs kanten af 30 m × 7 m?",
       "answer": 74,
       "format": "number",
       "unit": "m",
@@ -298,7 +298,7 @@
       "id": "geometri-n5-hPer3",
       "type": "numeric",
       "difficulty": "hard",
-      "prompt": "Hvor mange **meter** fodliste langs kanten af et rum 22 m × 13 m?",
+      "prompt": "Hvor mange **meter** fodliste langs kanten af 22 m × 13 m?",
       "answer": 70,
       "format": "number",
       "unit": "m",
@@ -314,7 +314,7 @@
       "id": "geometri-n5-hConv1",
       "type": "numeric",
       "difficulty": "hard",
-      "prompt": "Et areal er 22500 cm². Hvad er det i m²?",
+      "prompt": "Omregn 22500 cm² til m².",
       "answer": 2.25,
       "format": "number",
       "unit": "m^2",
@@ -330,7 +330,7 @@
       "id": "geometri-n5-hConv2",
       "type": "numeric",
       "difficulty": "hard",
-      "prompt": "Et areal er 3600 cm². Hvad er det i m²?",
+      "prompt": "Omregn 3600 cm² til m².",
       "answer": 0.36,
       "format": "number",
       "unit": "m^2",
@@ -346,7 +346,7 @@
       "id": "geometri-n5-hConv3",
       "type": "numeric",
       "difficulty": "hard",
-      "prompt": "Et areal er 2500 cm². Hvad er det i m²?",
+      "prompt": "Omregn 2500 cm² til m².",
       "answer": 0.25,
       "format": "number",
       "unit": "m^2",
@@ -362,11 +362,11 @@
       "id": "geometri-n5-hScale1",
       "type": "numeric",
       "difficulty": "hard",
-      "prompt": "En figur har areal 6 m². Hvis alle sidelængder ganges med 1.5, hvad bliver arealet?",
+      "prompt": "Figur areal 6 m². Skaler længder med 1.5. Nyt areal?",
       "answer": 13.5,
       "format": "number",
       "unit": "m^2",
-      "hint": "Areal skaleres med k².",
+      "hint": "k^2 ved areal.",
       "distractors": [
         9.0
       ],
@@ -378,11 +378,11 @@
       "id": "geometri-n5-hScale2",
       "type": "numeric",
       "difficulty": "hard",
-      "prompt": "En figur har areal 10 m². Hvis alle sidelængder ganges med 1.5, hvad bliver arealet?",
+      "prompt": "Figur areal 10 m². Skaler længder med 1.5. Nyt areal?",
       "answer": 22.5,
       "format": "number",
       "unit": "m^2",
-      "hint": "Areal skaleres med k².",
+      "hint": "k^2 ved areal.",
       "distractors": [
         15.0
       ],
@@ -394,125 +394,59 @@
       "id": "geometri-rl-paint-5-1",
       "type": "numeric",
       "difficulty": "medium",
-      "prompt": "Et rum 8m×3m×2m skal males på væggene i 2 lag. Malingen dækker 8 m²/L. Hvor mange liter skal bruges (ca.)?",
-      "answer": 11.0,
+      "prompt": "Rum 3m×3m×2m males på vægge i 1 lag. Dækkeevne 10 m²/L. Hvor mange liter?",
+      "answer": 2.4,
       "format": "number",
       "unit": "L",
-      "hint": "Areal vægge = 2(L+W)H. Dækning = areal/dækkeevne.",
+      "hint": "2(L+W)H × lag / dækkeevne.",
       "feedback_key": "paint_coverage_confusion"
     },
     {
       "id": "geometri-rl-paint-5-2",
       "type": "numeric",
       "difficulty": "medium",
-      "prompt": "Et rum 7m×3m×3m skal males på væggene i 2 lag. Malingen dækker 10 m²/L. Hvor mange liter skal bruges (ca.)?",
-      "answer": 12.0,
+      "prompt": "Rum 5m×7m×2m males på vægge i 2 lag. Dækkeevne 12 m²/L. Hvor mange liter?",
+      "answer": 8.0,
       "format": "number",
       "unit": "L",
-      "hint": "Areal vægge = 2(L+W)H. Dækning = areal/dækkeevne.",
-      "feedback_key": "paint_coverage_confusion"
-    },
-    {
-      "id": "geometri-rl-paint-5-3",
-      "type": "numeric",
-      "difficulty": "medium",
-      "prompt": "Et rum 7m×3m×3m skal males på væggene i 2 lag. Malingen dækker 8 m²/L. Hvor mange liter skal bruges (ca.)?",
-      "answer": 15.0,
-      "format": "number",
-      "unit": "L",
-      "hint": "Areal vægge = 2(L+W)H. Dækning = areal/dækkeevne.",
+      "hint": "2(L+W)H × lag / dækkeevne.",
       "feedback_key": "paint_coverage_confusion"
     },
     {
       "id": "geometri-rl-tiles-5-1",
       "type": "numeric",
       "difficulty": "medium",
-      "prompt": "En terrasse 7 m × 5 m skal have fliser. Beregn m² inkl. 8% spild.",
-      "answer": 37.8,
+      "prompt": "Terrasse 6 m × 5 m med 12% spild. Hvor mange m² fliser?",
+      "answer": 33.6,
       "format": "number",
       "unit": "m^2",
-      "hint": "Areal × (1 + spild%).",
+      "hint": "Areal×(1+spild%).",
       "feedback_key": "tile_waste_missing"
     },
     {
       "id": "geometri-rl-tiles-5-2",
       "type": "numeric",
       "difficulty": "medium",
-      "prompt": "En terrasse 10 m × 4 m skal have fliser. Beregn m² inkl. 10% spild.",
-      "answer": 44.0,
+      "prompt": "Terrasse 6 m × 5 m med 12% spild. Hvor mange m² fliser?",
+      "answer": 33.6,
       "format": "number",
       "unit": "m^2",
-      "hint": "Areal × (1 + spild%).",
-      "feedback_key": "tile_waste_missing"
-    },
-    {
-      "id": "geometri-rl-tiles-5-3",
-      "type": "numeric",
-      "difficulty": "medium",
-      "prompt": "En terrasse 5 m × 4 m skal have fliser. Beregn m² inkl. 8% spild.",
-      "answer": 21.6,
-      "format": "number",
-      "unit": "m^2",
-      "hint": "Areal × (1 + spild%).",
+      "hint": "Areal×(1+spild%).",
       "feedback_key": "tile_waste_missing"
     },
     {
       "id": "geometri-rl-walktrack-5-1",
       "type": "numeric",
       "difficulty": "hard",
-      "prompt": "En rund sti har radius 101 m. Du går 4 omgange med ca. 1.2 m/s. Hvor lang tid tager det (sek.)?",
-      "answer": 2115,
+      "prompt": "Rund sti radius 139 m, 3 omgange, fart 1.5 m/s. Tid (sek.)?",
+      "answer": 1746,
       "format": "number",
       "unit": "s",
-      "hint": "Omkreds=2πr; tid=strækning/hastighed.",
-      "feedback_key": "speed_time_distance"
-    },
-    {
-      "id": "geometri-rl-walktrack-5-2",
-      "type": "numeric",
-      "difficulty": "hard",
-      "prompt": "En rund sti har radius 113 m. Du går 3 omgange med ca. 1.5 m/s. Hvor lang tid tager det (sek.)?",
-      "answer": 1420,
-      "format": "number",
-      "unit": "s",
-      "hint": "Omkreds=2πr; tid=strækning/hastighed.",
+      "hint": "Omkreds=2πr, tid=s/v.",
       "feedback_key": "speed_time_distance"
     },
     {
       "id": "geo-unit-cm2tom2-5-1",
-      "type": "numeric",
-      "difficulty": "medium",
-      "prompt": "Omregn 2500 cm² til m².",
-      "answer": 0.25,
-      "format": "number",
-      "unit": "m^2",
-      "hint": "1 m² = 10.000 cm².",
-      "feedback_key": "area_factor_not_squared"
-    },
-    {
-      "id": "geo-unit-cm2tom2-5-2",
-      "type": "numeric",
-      "difficulty": "medium",
-      "prompt": "Omregn 3600 cm² til m².",
-      "answer": 0.36,
-      "format": "number",
-      "unit": "m^2",
-      "hint": "1 m² = 10.000 cm².",
-      "feedback_key": "area_factor_not_squared"
-    },
-    {
-      "id": "geo-unit-cm2tom2-5-1-2",
-      "type": "numeric",
-      "difficulty": "medium",
-      "prompt": "Omregn 3600 cm² til m².",
-      "answer": 0.36,
-      "format": "number",
-      "unit": "m^2",
-      "hint": "1 m² = 10.000 cm².",
-      "feedback_key": "area_factor_not_squared"
-    },
-    {
-      "id": "geo-unit-cm2tom2-5-2-2",
       "type": "numeric",
       "difficulty": "medium",
       "prompt": "Omregn 2500 cm² til m².",

@@ -65,7 +65,7 @@
         "="
       ],
       "answer": 1,
-      "hint": "Sammenlign tællere når nævneren er ens."
+      "hint": "Sammenlign tællere ved samme nævner."
     },
     {
       "id": "broeker-n9-eCmp2",
@@ -78,7 +78,7 @@
         "="
       ],
       "answer": 2,
-      "hint": "Sammenlign tællere når nævneren er ens."
+      "hint": "Sammenlign tællere ved samme nævner."
     },
     {
       "id": "broeker-n9-eCmp3",
@@ -91,7 +91,7 @@
         "="
       ],
       "answer": 1,
-      "hint": "Sammenlign tællere når nævneren er ens."
+      "hint": "Sammenlign tællere ved samme nævner."
     },
     {
       "id": "broeker-n9-eEq1",
@@ -104,7 +104,7 @@
         "8/9"
       ],
       "answer": 0,
-      "hint": "Gange både tæller og nævner med samme tal."
+      "hint": "Gange både tæller og nævner."
     },
     {
       "id": "broeker-n9-eEq2",
@@ -117,7 +117,7 @@
         "3/2"
       ],
       "answer": 0,
-      "hint": "Gange både tæller og nævner med samme tal."
+      "hint": "Gange både tæller og nævner."
     },
     {
       "id": "broeker-n9-eEq3",
@@ -130,7 +130,7 @@
         "8/8"
       ],
       "answer": 0,
-      "hint": "Gange både tæller og nævner med samme tal."
+      "hint": "Gange både tæller og nævner."
     },
     {
       "id": "broeker-n9-mAdd1",
@@ -370,24 +370,24 @@
       "id": "broeker-n9-hCtx1",
       "type": "short",
       "difficulty": "hard",
-      "prompt": "En opskrift kræver 3/4 liter mælk. Du har 1/2 liter. Mangler du mælk, og hvor meget?",
+      "prompt": "Opskrift kræver 3/4 L mælk. Du har 1/2 L. Mangler du, og hvor meget?",
       "answer": "Ja, 0.25 liter.",
-      "hint": "Sammenlign decimaler af brøkerne."
+      "hint": "Sammenlign decimaler."
     },
     {
       "id": "broeker-n9-hCtx2",
       "type": "short",
       "difficulty": "hard",
-      "prompt": "En opskrift kræver 3/4 liter mælk. Du har 1/2 liter. Mangler du mælk, og hvor meget?",
+      "prompt": "Opskrift kræver 3/4 L mælk. Du har 1/2 L. Mangler du, og hvor meget?",
       "answer": "Ja, 0.25 liter.",
-      "hint": "Sammenlign decimaler af brøkerne."
+      "hint": "Sammenlign decimaler."
     },
     {
       "id": "broeker-rl-recipe-9-1",
       "type": "numeric",
       "difficulty": "medium",
-      "prompt": "En opskrift til 4 personer bruger 1.5 kop sukker. Hvor mange kopper til 5 personer? (angiv tal)",
-      "answer": 1.88,
+      "prompt": "En opskrift til 6 personer bruger 1.5 kop sukker. Hvor mange kopper til 8 personer? (angiv tal)",
+      "answer": 2.0,
       "format": "number",
       "hint": "Skaler med forhold: ny = gammel × (ny/opr.)."
     },
@@ -395,17 +395,8 @@
       "id": "broeker-rl-recipe-9-2",
       "type": "numeric",
       "difficulty": "medium",
-      "prompt": "En opskrift til 6 personer bruger 1 kop sukker. Hvor mange kopper til 5 personer? (angiv tal)",
-      "answer": 0.83,
-      "format": "number",
-      "hint": "Skaler med forhold: ny = gammel × (ny/opr.)."
-    },
-    {
-      "id": "broeker-rl-recipe-9-3",
-      "type": "numeric",
-      "difficulty": "medium",
-      "prompt": "En opskrift til 4 personer bruger 1 kop sukker. Hvor mange kopper til 8 personer? (angiv tal)",
-      "answer": 2.0,
+      "prompt": "En opskrift til 4 personer bruger 2 kop sukker. Hvor mange kopper til 8 personer? (angiv tal)",
+      "answer": 4.0,
       "format": "number",
       "hint": "Skaler med forhold: ny = gammel × (ny/opr.)."
     },
@@ -413,8 +404,8 @@
       "id": "broeker-rl-bill-9-1",
       "type": "numeric",
       "difficulty": "easy",
-      "prompt": "En regning på 375 kr deles. Person A betaler 0.4 af totalen. Hvor meget betaler A?",
-      "answer": 150.0,
+      "prompt": "En regning på 510 kr deles. Person A betaler 0.3333333333333333 af totalen. Hvor meget betaler A?",
+      "answer": 170.0,
       "format": "number",
       "unit": "kr",
       "hint": "Del af helhed: brøk × total."
@@ -441,73 +432,7 @@
       "feedback_key": "g_kg_confusion"
     },
     {
-      "id": "broeker-unit-g2kg-9-2",
-      "type": "numeric",
-      "difficulty": "easy",
-      "prompt": "Omregn 250 g til kg.",
-      "answer": 0.25,
-      "format": "number",
-      "unit": "kg",
-      "hint": "1 kg = 1000 g.",
-      "feedback_key": "g_kg_confusion"
-    },
-    {
       "id": "broeker-unit-min2s-9-1",
-      "type": "numeric",
-      "difficulty": "easy",
-      "prompt": "Omregn 7 min til sekunder.",
-      "answer": 420,
-      "format": "number",
-      "unit": "s",
-      "hint": "1 min = 60 s.",
-      "feedback_key": "time_conversion_confusion"
-    },
-    {
-      "id": "broeker-unit-min2s-9-2",
-      "type": "numeric",
-      "difficulty": "easy",
-      "prompt": "Omregn 7 min til sekunder.",
-      "answer": 420,
-      "format": "number",
-      "unit": "s",
-      "hint": "1 min = 60 s.",
-      "feedback_key": "time_conversion_confusion"
-    },
-    {
-      "id": "broeker-unit-g2kg-9-1-2",
-      "type": "numeric",
-      "difficulty": "easy",
-      "prompt": "Omregn 1200 g til kg.",
-      "answer": 1.2,
-      "format": "number",
-      "unit": "kg",
-      "hint": "1 kg = 1000 g.",
-      "feedback_key": "g_kg_confusion"
-    },
-    {
-      "id": "broeker-unit-g2kg-9-2-2",
-      "type": "numeric",
-      "difficulty": "easy",
-      "prompt": "Omregn 750 g til kg.",
-      "answer": 0.75,
-      "format": "number",
-      "unit": "kg",
-      "hint": "1 kg = 1000 g.",
-      "feedback_key": "g_kg_confusion"
-    },
-    {
-      "id": "broeker-unit-min2s-9-1-2",
-      "type": "numeric",
-      "difficulty": "easy",
-      "prompt": "Omregn 7 min til sekunder.",
-      "answer": 420,
-      "format": "number",
-      "unit": "s",
-      "hint": "1 min = 60 s.",
-      "feedback_key": "time_conversion_confusion"
-    },
-    {
-      "id": "broeker-unit-min2s-9-2-2",
       "type": "numeric",
       "difficulty": "easy",
       "prompt": "Omregn 12 min til sekunder.",
