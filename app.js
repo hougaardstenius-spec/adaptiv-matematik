@@ -94,12 +94,54 @@ function unitsMatch(expected, given){ if(!expected) return true; const e=normali
 
 function headerUI(){ const h=document.querySelector('header'); const prog=loadProgress(); const btn = prog.last ? el('a',{href:'#',class:'button',onclick:(ev)=>{ev.preventDefault(); const subj=prog.last.subject; const lvl=prog.last.level; renderLevels(subj, window.__data[subj]); const levelObj=window.__data[subj].levels.find(x=>x.level===lvl); renderDetails(window.__data[subj].title, levelObj);}},'Fortsæt hvor du slap') : null; const wrap=el('div',{}, [btn?btn:el('span',{},'')]); h.appendChild(wrap); }
 
-function headerControls(){ const h=document.querySelector('header'); const wrap=el('div',{class:'small'},[]); const modeSel=el('select',{},[ el('option',{value:'all'},'Alle opgaver'), el('option',{value:'units'},'Kun enheder') ]); modeSel.value=CONFIG.mode; modeSel.onchange=()=>{ CONFIG.mode=modeSel.value; };
-  const chk=el('input',{type:'checkbox'}); chk.checked=CONFIG.strictUnits; chk.onchange=()=>{ CONFIG.strictUnits=chk.checked; };
-  function mkWeightInputs(label,arr){ const w=el('span',{}); w.appendChild(el('span',{style:'margin:0 6px;'},label+':')); const e=el('input',{type:'number',value:arr[0],min:'0',max:'8',style:'width:48px'}); const m=el('input',{type:'number',value:arr[1],min:'0',max:'8',style:'width:48px;margin-left:4px'}); const h=el('input',{type:'number',value:arr[2],min:'0',max:'8',style:'width:48px;margin-left:4px'}); e.onchange=()=>arr[0]=Number(e.value); m.onchange=()=>arr[1]=Number(m.value); h.onchange=()=>arr[2]=Number(h.value); w.appendChild(e); w.appendChild(m); w.appendChild(h); return w; }
-  const row1=el('div',{},[ el('label',{},['Træning: ', modeSel]), el('span',{style:'margin-left:10px'}), el('label',{},[chk,' Kræv korrekt enhed']) ]);
-  const row2=el('div',{style:'margin-top:6px'},[ el('span',{},'Sværhedsvægte (let, mellem, svær):'), mkWeightInputs('1–3',CONFIG.mixWeights.low), mkWeightInputs('4–6',CONFIG.mixWeights.mid), mkWeightInputs('7–8',CONFIG.mixWeights.high), mkWeightInputs('9–10',CONFIG.mixWeights.top) ]);
-  wrap.appendChild(row1); wrap.appendChild(row2); h.appendChild(wrap); }
+function headerControls(){
+  const h = document.querySelector('header');
+  const wrap = el('div', {class:'small'}, []);
+
+  // Mode select
+  const modeSel = el('select', {}, [
+    el('option',{value:'all'},'Alle opgaver'),
+    el('option',{value:'units'},'Kun enheder')
+  ]);
+  modeSel.value = CONFIG.mode;
+  modeSel.onchange = () => { CONFIG.mode = modeSel.value; };
+
+  // Strict units checkbox
+  const chk = el('input',{type:'checkbox'});
+  chk.checked = CONFIG.strictUnits;
+  chk.onchange = () => { CONFIG.strictUnits = chk.checked; };
+
+  // Sværhedsvægte inputs
+  function mkWeightInputs(label, arr){
+    const w = el('span',{style:'margin-left:8px;'});
+    w.appendChild(el('span',{style:'margin:0 6px;'},label+':'));
+    const e = el('input',{type:'number',value:arr[0],min:'0',max:'8',style:'width:48px'});
+    const m = el('input',{type:'number',value:arr[1],min:'0',max:'8',style:'width:48px;margin-left:4px'});
+    const h = el('input',{type:'number',value:arr[2],min:'0',max:'8',style:'width:48px;margin-left:4px'});
+    e.onchange = () => arr[0]=Number(e.value);
+    m.onchange = () => arr[1]=Number(m.value);
+    h.onchange = () => arr[2]=Number(h.value);
+    w.appendChild(e); w.appendChild(m); w.appendChild(h);
+    return w;
+  }
+
+  const row1 = el('div',{},[
+    el('label',{},['Træning: ', modeSel]),
+    el('span',{style:'margin-left:10px'}),
+    el('label',{},[chk, ' Kræv korrekt enhed'])
+  ]);
+  const row2 = el('div',{style:'margin-top:6px'},[
+    el('span',{},'Sværhedsvægte (let, mellem, svær):'),
+    mkWeightInputs('1–3', CONFIG.mixWeights.low),
+    mkWeightInputs('4–6', CONFIG.mixWeights.mid),
+    mkWeightInputs('7–8', CONFIG.mixWeights.high),
+    mkWeightInputs('9–10', CONFIG.mixWeights.top)
+  ]);
+
+  wrap.appendChild(row1);
+  wrap.appendChild(row2);
+  h.appendChild(wrap);
+}
 
 function renderSubjects(data){ const c=document.getElementById('subjects'); c.innerHTML=''; c.appendChild(el('h2',{},'Emner')); const grid=el('div',{class:'grid'}); Object.entries(data).forEach(([key,subject])=>{ const card=el('div',{class:'card'},[ el('h3',{},subject.title), el('p',{class:'small'},`Niveauer: 1–${subject.levels.length}`), el('a',{href:'#',class:'button',onclick:(ev)=>{ev.preventDefault();renderLevels(key, subject);}},'Se niveauer') ]); grid.appendChild(card); }); c.appendChild(grid); }
 
@@ -202,5 +244,9 @@ class Quiz{
     try{ renderXPBar(); }catch(e){}
   }
 }
-
-Promise.all([loadData(), loadFeedback()]).then(([d])=>{ window.__data=d; renderSubjects(d); headerUI(); headerControls(); renderXPInit(); });
+Promise.all([loadData(), loadFeedback()]).then(([d])=>{
+  window.__data = d;
+  renderSubjects(d);
+  headerUI();
+  headerControls();
+});
