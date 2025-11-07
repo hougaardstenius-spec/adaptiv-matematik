@@ -1,4 +1,3 @@
-
 :root { --bg:#0f172a; --card:#111827; --text:#e5e7eb; --muted:#9ca3af; --accent:#22d3ee; --accent2:#10b981; }
 *{box-sizing:border-box}
 body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial;background:var(--bg);color:var(--text)}
@@ -16,12 +15,10 @@ section{margin:16px 0}
 .level h4{margin:0 0 6px 0}
 input,select{padding:6px 8px;border-radius:8px;border:1px solid #374151;background:#0b1220;color:var(--text)}
 footer{padding:24px 16px;border-top:1px solid #1f2937;color:var(--muted)}
-
 /* XP bar */
 .xpbar { margin-top: 8px; max-width: 420px; }
 .xpbar-outer { height: 10px; border:1px solid #1f2937; border-radius:999px; background:#0b1220; overflow:hidden; margin:6px 0 2px; }
 .xpbar-fill { height: 100%; background: linear-gradient(90deg, var(--accent), var(--accent2)); transition: width .3s ease; }
-
 /* Badges strip & panel */
 .badges-strip { margin-top:8px; display:flex; align-items:center; gap:6px; }
 .badge-icon { font-size:18px; margin-right:4px; }
@@ -31,7 +28,6 @@ footer{padding:24px 16px;border-top:1px solid #1f2937;color:var(--muted)}
 .badge-card { text-align:center; padding:10px; border:1px solid #253042; border-radius:10px; background:#0b1220; }
 .badge-card.locked { opacity:0.5; }
 .badge-title { font-weight:600; margin:4px 0; }
-
 /* Badge toast */
 .badge-toast { position: fixed; right: 16px; bottom: 16px; z-index: 9999; background:#0b1220; color:#e5e7eb; border:1px solid #253042; border-radius:10px; padding:10px 12px; opacity:0; transform: translateY(8px); transition: all .25s ease; }
 .badge-toast.show { opacity:1; transform: translateY(0); }
