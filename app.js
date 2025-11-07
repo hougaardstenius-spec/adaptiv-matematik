@@ -2,7 +2,7 @@ python3 scripts/generate_taskbanks.py
 python3 scripts/add_real_life_tasks.py
 python3 scripts/add_unit_conversion_tasks.py
 
-const PASS_REQUIRED = 6; // krævede korrekte svar ud af 8
+const PASS_REQUIRED = 8; // krævede korrekte svar ud af 10
 
 // === Configurable settings ===
 const CONFIG = {
@@ -15,6 +15,46 @@ const CONFIG = {
     top:  [1,3,4]    // niveau 9–10
   }
 };
+// === XP / Gamification ===
+const XP_KEY = 'am_xp_v1';
+const XP_POINTS = { easy: 10, medium: 20, hard: 35 };
+const XP_STREAK_STEP = 5;     // +5 pr. korrekt i træk
+const XP_STREAK_MAX  = 25;    // maks bonus
+const XP_PASS_BONUS  = 50;    // bonus når runde bestås
+
+// Trinvis voksende level-krav (kan udvides; fortsætter med faktor 1.25)
+function xpThresholds(limit=50){
+  const arr=[200]; // krav for Level 1→2
+  while(arr.length<limit){ arr.push(Math.round(arr[arr.length-1]*1.25)); }
+  return arr;
+}
+const XP_THRESH = xpThresholds(50);
+
+function loadXP(){
+  try{ return JSON.parse(localStorage.getItem(XP_KEY)) || {xp:0, level:1}; }
+  catch(e){ return {xp:0, level:1}; }
+}
+function saveXP(state){ localStorage.setItem(XP_KEY, JSON.stringify(state)); }
+
+function recomputeLevel(xp){
+  let lvl=1, need=XP_THRESH[0], idx=0, spent=0;
+  while(xp - (spent+need) >= 0 && idx < XP_THRESH.length){
+    xp -= need; spent += need; lvl++; idx++; need = XP_THRESH[idx] || Math.round(need*1.25);
+  }
+  return { level:lvl, xpInto: xp, need: need };
+}
+
+function addXP(amount){
+  const s = loadXP();
+  s.xp += Math.max(0, Math.round(amount));
+  const { level, xpInto, need } = recomputeLevel(s.xp);
+  const leveledUp = level > s.level;
+  s.level = level;
+  saveXP(s);
+  // Opdater XP-bar i header når vi tildeler XP
+  try{ renderXPBar(); }catch(e){}
+  return { leveledUp, level, xpInto, need };
+}
 
 // Unit normalization: accepter små variationer (fx m2 ~ m^2, liter L/l)
 function normalizeUnit(u){
@@ -97,6 +137,28 @@ function headerUI(){ const h=document.querySelector('header'); const prog=loadPr
 function headerControls(){
   const h = document.querySelector('header');
   const wrap = el('div', {class:'small'}, []);
+
+  function renderXPBar(){
+  const wrapId = 'xpbar-wrap';
+  let node = document.getElementById(wrapId);
+  if(!node){
+    node = el('div',{id:wrapId, class:'xpbar'});
+    document.querySelector('header').appendChild(node);
+  }
+  const { xp, level } = loadXP();
+  const prog = recomputeLevel(xp);
+  const pct = Math.min(100, Math.round((prog.xpInto / prog.need) * 100));
+  node.innerHTML = '';
+  node.appendChild(
+    el('div',{},[
+      el('span',{class:'small'},`Level ${level}`),
+      el('div',{class:'xpbar-outer'},[
+        el('div',{class:'xpbar-fill', style:`width:${pct}%`},[])
+      ]),
+      el('div',{class:'small'},`${prog.xpInto} / ${prog.need} XP`)
+    ])
+  );
+}
 
   // Mode select
   const modeSel = el('select', {}, [
