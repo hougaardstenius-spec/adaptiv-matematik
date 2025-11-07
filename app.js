@@ -3,6 +3,54 @@ python3 scripts/add_real_life_tasks.py
 python3 scripts/add_unit_conversion_tasks.py
 
 const PASS_REQUIRED = 6; // krævede korrekte svar ud af 8
+
+// === Configurable settings ===
+const CONFIG = {
+  strictUnits: true,              // kræv korrekt enhed ved numeric-opgaver med unit
+  mode: 'all',                    // 'all' | 'units' (kun enhedsrelaterede opgaver)
+  mixWeights: {                   // [easy, medium, hard]
+    low:  [4,3,1],   // niveau 1–3
+    mid:  [3,3,2],   // niveau 4–6
+    high: [2,3,3],   // niveau 7–8
+    top:  [1,3,4]    // niveau 9–10
+  }
+};
+
+// Unit normalization: accepter små variationer (fx m2 ~ m^2, liter L/l)
+function normalizeUnit(u){
+  if(!u) return null;
+  let s = String(u).toLowerCase().trim();
+  s = s.replace(/\s+/g,'');
+  s = s.replace(/kr\.?$/,'kr');
+  s = s.replace(/øre|ore/,'øre');
+  // m2 -> m^2, cm2 -> cm^2, m3 -> m^3, ...
+  s = s.replace(/\b(m|cm|mm|km)(2)\b/g, '$1^2');
+  s = s.replace(/\b(m|cm|mm|km)(3)\b/g, '$1^3');
+  if(s==='l' || s==='liter') s='l';
+  if(s==='m/s' || s==='m·s^-1' || s==='ms^-1' || s==='m s^-1') s='m/s';
+  return s;
+}
+
+function unitsMatch(expected, given){
+  if(!expected) return true; // nothing to enforce
+  const e = normalizeUnit(expected);
+  const g = normalizeUnit(given);
+  if(!g) return false;
+  if(e===g) return true;
+  const aliases = {
+    'l': ['liter','l'],
+    'kr': ['kr','kr.'],
+    'm^2': ['m2','m^2'],
+    'cm^2': ['cm2','cm^2'],
+    'm^3': ['m3','m^3'],
+    'cm^3': ['cm3','cm^3'],
+    'm/s': ['m/s','ms^-1','m s^-1']
+  };
+  for(const [key, list] of Object.entries(aliases)){
+    if(e===key && list.includes(g)) return true;
+  }
+  return false;
+}
 const STORAGE_KEY = 'am_progress_v1';
 let FEEDBACK = {};
 
