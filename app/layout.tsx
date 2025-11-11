@@ -1,0 +1,1 @@
+import "../styles/theme.css";import React from "react";export const metadata={title:"Adaptive Math UI Kit"};export default function RootLayout({children}:{children:React.ReactNode}){return(<html lang="da"><body><div className="container">{children}</div></body></html>);}
