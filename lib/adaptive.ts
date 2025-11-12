@@ -1,0 +1,7 @@
+
+export type Difficulty = 1|2|3|4|5;
+export interface Task { id:string; topic:'fractions'|'percent'|'geometry'|'algebra'|'decimals'; prompt:string; expected:string; expectedType:'number'|'percent'|'fraction'|'string'; difficulty:Difficulty; meta?:Record<string,any> }
+export interface Progress { studentId:string; streak:number; level:Difficulty; correct:number; incorrect:number; updatedAt:string; topicLevels:Record<string,Difficulty> }
+export function initialProgress(studentId:string):Progress{ return { studentId, streak:0, level:1, correct:0, incorrect:0, updatedAt:new Date().toISOString(), topicLevels:{fractions:1,percent:1,geometry:1,algebra:1,decimals:1} } }
+export function updateProgress(p:Progress, r:{topic:Task['topic']; correct:boolean}):Progress{ const t=r.topic; const now=new Date().toISOString(); let level=p.topicLevels[t]; let streak=r.correct? p.streak+1 : 0; if(r.correct){ p.correct+=1; if(streak%3===0 && level<5) level=(level+1) as any; } else { p.incorrect+=1; if(level>1) level=(level-1) as any; } return { ...p, streak, updatedAt: now, topicLevels: { ...p.topicLevels, [t]: level } } }
+export function pickNext(tasks:Task[],topic:Task['topic'], level:Difficulty){ const pool=tasks.filter(t=>t.topic===topic && t.difficulty===level); if(pool.length===0){ const any=tasks.filter(t=>t.topic===topic).sort((a,b)=>a.difficulty-b.difficulty); return any[Math.floor(Math.random()*any.length)]; } return pool[Math.floor(Math.random()*pool.length)]; }
