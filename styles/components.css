@@ -1,0 +1,11 @@
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:12px;font-weight:600;padding:10px 16px;border:1px solid transparent;cursor:pointer;transition:all .15s ease}
+.btn:focus{outline:none;box-shadow:0 0 0 2px var(--ring)}
+.btn--primary{background:var(--primary);color:#fff}
+.btn--primary:hover{background:var(--primary-600)}
+.btn--secondary{background:#fff;color:var(--text);border-color:#CBD5E1}
+.btn--outline{background:transparent;color:var(--text);border-color:#CBD5E1}
+.btn--ghost{background:transparent;color:var(--primary)}
+.btn--success{background:var(--accent);color:#fff}
+.progress{height:12px;background:#E5E7EB;border-radius:999px;overflow:hidden}
+.progress>span{display:block;height:100%;background:var(--accent)}

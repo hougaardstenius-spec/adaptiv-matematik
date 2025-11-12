@@ -1,0 +1,15 @@
+
+:root{
+  --bg:#EAF2FF;--bg-muted:#F6F8FF;--text:#0F172A;--primary:#4F46E5;--primary-600:#4338CA;--accent:#2FA483;--warning:#FFB86B;--success:#29B199;--info:#C6C3FF;--radius:12px;--ring:#A5B4FC;--shadow:0 8px 20px rgba(16,42,67,.1);--font-sans:ui-sans-serif,system-ui,Segoe UI,Roboto,Arial,"Apple Color Emoji","Segoe UI Emoji";
+}
+:root.dark{--bg:#0B1220;--bg-muted:#0F172A;--text:#E5E7EB;--primary:#7C7BFF;--primary-600:#6D6BFF}
+html,body{height:100%}
+body{margin:0;font-family:var(--font-sans);color:var(--text);background:var(--bg)}
+.container{max-width:1100px;margin:0 auto;padding:24px}
+.card{background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);padding:24px}
+.hstack{display:flex;gap:12px;align-items:center}
+.vstack{display:flex;gap:12px;flex-direction:column}
+.table{width:100%;border-collapse:collapse}
+.table th,.table td{padding:8px 10px;border-bottom:1px solid #E5E7EB;text-align:left}
+.input{padding:10px 12px;border-radius:8px;border:1px solid #CBD5E1}
+hr{border:none;height:1px;background:#E2E8F0;margin:16px 0}
